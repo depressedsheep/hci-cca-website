@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--year-month-day-hour-min-sec-ms-->
+<articles>
+    <info total="10" last-updated="2014-01-02" />
+    <display from="2014-01-02" />
+    <item number="1">
+        <position>1</position>
+        <id>20140102000000001</id>
+        <dateAdded>2014-01-02</dateAdded>
+        <url>/hs_cca/stories/toparticle.html</url>
+        <image>/hs_cca/images/stories/top.jpg</image>
+        <author>John Doe</author>
+        <title>Top Title XML</title>
+        <excerpt>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit aliquam ligula, sit amet ornare quam posuere sit amet. Mauris eu nunc feugiat, venenatis libero non, viverra urna. Maecenas vulputate imperdiet nulla, sagittis ullamcorper leo vestibulum a. Aenean arcu nisi, gravida et metus sed, euismod varius odio. Praesent at ornare nisl. Vivamus non orci at orci feugiat pulvinar in dignissim arcu. Proin ultricies, eros ut vestibulum mollis, orci urna pharetra magna, eget tempor quam dui fringilla tortor. Proin sit amet hendrerit ipsum. Sed ut tincidunt elit, sed rutrum sem. Fusce id vehicula dolor. Pellentesque interdum mauris ipsum, lacinia cursus quam varius in. Sed at tortor quis mi ornare tincidunt. Aliquam vulputate venenatis eros, sit amet vestibulum dolor consectetur a. Nulla non placerat diam, at laoreet libero.</excerpt>
+        <main>
+        </main>
+    </item>
+    <item number="2">
+        <position>2</position>
+        <id>20140102000000002</id>
+        <dateAdded>2014-01-02</dateAdded>
+        <url>/hs_cca/stories/sidearticle.html</url>
+        <image>/hs_cca/images/stories/side.jpg</image>
+        <author>John Doe</author>
+        <title>Side Title XML</title>
+        <excerpt>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit aliquam ligula, sit amet ornare quam posuere sit amet. Mauris eu nunc feugiat, venenatis libero non, viverra urna. Maecenas vulputate imperdiet nulla, sagittis ullamcorper leo vestibulum a. Aenean arcu nisi, gravida et metus sed, euismod varius odio. Praesent at ornare nisl.</excerpt>
+        <main>
+        </main>
+    </item>
+    <item number="3">
+        <position>3</position>
+        <id>20140102000000003</id>
+        <dateAdded>2014-01-02</dateAdded>
+        <url>/hs_cca/stories/article1.html</url>
+        <image>/hs_cca/images/stories/rest/1.jpg</image>
+        <author>John Doe</author>
+        <title>Rest Title 1</title>
+        <excerpt>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit aliquam ligula, sit amet ornare quam posuere sit amet. Mauris eu nunc feugiat, venenatis libero non, viverra urna. Maecenas vulputate imperdiet nulla, sagittis ullamcorper leo vestibulum a. Aenean arcu nisi, gravida et metus sed, euismod varius odio. Praesent at ornare nisl. </excerpt>
+        <main>
+        </main>
+    </item>
+    <item number="4">
+        <position>3</position>
+        <id>20140102000000004</id>
+        <dateAdded>2014-01-02</dateAdded>
+        <url>/hs_cca/stories/article1.html</url>
+        <image>/hs_cca/images/stories/rest/1.jpg</image>
+        <author>John Doe</author>
+        <title>Rest Title 2</title>
+        <excerpt>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit aliquam ligula, sit amet ornare quam posuere sit amet. Mauris eu nunc feugiat, venenatis libero non, viverra urna. Maecenas vulputate imperdiet nulla, sagittis ullamcorper leo vestibulum a. Aenean arcu nisi, gravida et metus sed, euismod varius odio. Praesent at ornare nisl. </excerpt>
+        <main>
+        </main>
+    </item>
+    <item number="5">
+        <position>3</position>
+        <id>20140102000000005</id>
+        <dateAdded>2014-01-02</dateAdded>
+        <url>/hs_cca/stories/article1.html</url>
+        <image>/hs_cca/images/stories/rest/1.jpg</image>
+        <author>John Doe</author>
+        <title>Rest Title 3</title>
+        <excerpt>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit aliquam ligula, sit amet ornare quam posuere sit amet. Mauris eu nunc feugiat, venenatis libero non, viverra urna. Maecenas vulputate imperdiet nulla, sagittis ullamcorper leo vestibulum a. Aenean arcu nisi, gravida et metus sed, euismod varius odio. Praesent at ornare nisl. </excerpt>
+        <main>
+        </main>
+    </item>
+    <item number="6">
+        <position>3</position>
+        <id>20140102000000006</id>
+        <dateAdded>2014-01-02</dateAdded>
+        <url>/hs_cca/stories/article1.html</url>
+        <image>/hs_cca/images/stories/rest/1.jpg</image>
+        <author>John Doe</author>
+        <title>Rest Title 4</title>
+        <excerpt>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit aliquam ligula, sit amet ornare quam posuere sit amet. Mauris eu nunc feugiat, venenatis libero non, viverra urna. Maecenas vulputate imperdiet nulla, sagittis ullamcorper leo vestibulum a. Aenean arcu nisi, gravida et metus sed, euismod varius odio. Praesent at ornare nisl. </excerpt>
+        <main>
+        </main>
+    </item>
+    <item number="7">
+        <position>3</position>
+        <id>20140102000000007</id>
+        <dateAdded>2014-01-02</dateAdded>
+        <url>/hs_cca/stories/article1.html</url>
+        <image>/hs_cca/images/stories/rest/1.jpg</image>
+        <author>John Doe</author>
+        <title>Rest Title 5</title>
+        <excerpt>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit aliquam ligula, sit amet ornare quam posuere sit amet. Mauris eu nunc feugiat, venenatis libero non, viverra urna. Maecenas vulputate imperdiet nulla, sagittis ullamcorper leo vestibulum a. Aenean arcu nisi, gravida et metus sed, euismod varius odio. Praesent at ornare nisl. </excerpt>
+        <main>
+        </main>
+    </item>
+    <item number="8">
+        <position>3</position>
+        <id>20140102000000008</id>
+        <dateAdded>2014-01-02</dateAdded>
+        <url>/hs_cca/stories/article1.html</url>
+        <image>/hs_cca/images/stories/rest/1.jpg</image>
+        <author>John Doe</author>
+        <title>Rest Title 6</title>
+        <excerpt>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit aliquam ligula, sit amet ornare quam posuere sit amet. Mauris eu nunc feugiat, venenatis libero non, viverra urna. Maecenas vulputate imperdiet nulla, sagittis ullamcorper leo vestibulum a. Aenean arcu nisi, gravida et metus sed, euismod varius odio. Praesent at ornare nisl. </excerpt>
+        <main>
+        </main>
+    </item>
+    <item number="9">
+        <position>3</position>
+        <id>20140102000000009</id>
+        <dateAdded>2014-01-02</dateAdded>
+        <url>/hs_cca/stories/article1.html</url>
+        <image>/hs_cca/images/stories/rest/1.jpg</image>
+        <author>John Doe</author>
+        <title>Rest Title 7</title>
+        <excerpt>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit aliquam ligula, sit amet ornare quam posuere sit amet. Mauris eu nunc feugiat, venenatis libero non, viverra urna. Maecenas vulputate imperdiet nulla, sagittis ullamcorper leo vestibulum a. Aenean arcu nisi, gravida et metus sed, euismod varius odio. Praesent at ornare nisl. </excerpt>
+        <main>
+        </main>
+    </item>
+    <item number="10">
+        <position>3</position>
+        <id>20140102000000011</id>
+        <dateAdded>2014-01-02</dateAdded>
+        <url>/hs_cca/stories/article1.html</url>
+        <image>/hs_cca/images/stories/rest/1.jpg</image>
+        <author>John Doe</author>
+        <title>Rest Title 8</title>
+        <excerpt>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit aliquam ligula, sit amet ornare quam posuere sit amet. Mauris eu nunc feugiat, venenatis libero non, viverra urna. Maecenas vulputate imperdiet nulla, sagittis ullamcorper leo vestibulum a. Aenean arcu nisi, gravida et metus sed, euismod varius odio. Praesent at ornare nisl. </excerpt>
+        <main>
+        </main>
+    </item>
+</articles>

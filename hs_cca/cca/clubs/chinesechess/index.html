@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en" class="f9f9f9_bg" manifest="/hs_cca/cache.appcache">
+    <head>        
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="robots" />
+        <link rel="icon" href="/hs_cca/images/favicon.ico" type="image/x-icon" />
+        <link rel="author" href="/hs_cca/humans.txt" />
+        <title>CCA Website (Chinese Chess)</title>
+        <meta name="description" content="Hwa Chong PE and CCA Website" />
+        <meta name="keywords" content="CCA, PE, Clubs" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script src="/hs_cca/scripts/detect-mobile.js"></script>
+        
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,700,300' rel='stylesheet' type='text/css' />
+    	<!--[if lte IE 9]>
+            <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400" type='text/css'/> 
+            <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:700" type='text/css'/> 
+            <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300" type='text/css'/>
+            
+            <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic" type='text/css'/> 
+            <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300italic" type='text/css'/> 
+            <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:700italic" type='text/css'/>
+        <![endif]-->
+        
+        <link rel="stylesheet" href="/hs_cca/styles/main.css" type="text/css" />
+		<link rel="stylesheet" href="/hs_cca/styles/cca.css" type="text/css">
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+        <!--[if lte IE 9]>
+            <script src="/hs_cca/html5shiv/dist/html5shiv.js"></script>
+            <script src="/hs_cca/html5shiv/dist/html5shiv-printshiv.js"></script>
+            <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js">IE7_PNG_SUFFIX=".png";</script>
+            <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <![endif]-->
+        <!--[if gt IE 9]><!-->
+            <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+        <!--<![endif]-->
+        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="/hs_cca/scripts/javascript.js"></script>
+        <script src="/hs_cca/scripts/cca.js"></script>
+    </head>
+    <body>
+        <!--header-->
+        <!--<div id="menu_toggle">
+	        <div id="menu_toggle_tab">Menu</div>
+        </div>-->
+        <div id="header-filler"></div>
+        <header class="disableSelect">
+            <div id="navbar">
+                <div id="menu">
+                    <div id="m1" class="navbarmenu" data-link="0">
+                        <a href="/hs_cca/"><div class="menu_tab" id="tab1">Home</div></a>
+                    </div>
+                    <div id="m2" class="navbarmenu" data-link="2">
+                        <a href="/hs_cca/cca/"><div class="menu_tab" id="tab2">The CCAs</div></a>
+                        <div id="sub2" class="sub_menu">
+                            <div id="sub_search" class="sub_menu_tab" >
+	                            <div class="corner"></div>
+                            	<input type="search" id="ccasearch" placeholder="Search CCAs" autocomplete="off" onfocus="ccasearchf(1)" onblur="ccasearchf(0)" />
+                                <div class="corner"></div>
+                            </div>                        
+                        	<a href="/hs_cca/cca/sports/" class="sub_link"><div class="sub_menu_tab first_tab">Sports</div></a>
+                        	<a href="/hs_cca/cca/ug/" class="sub_link"><div class="sub_menu_tab">Uniform Groups</div></a>
+                        	<a href="/hs_cca/cca/aesthetics/" class="sub_link"><div class="sub_menu_tab">Aesthetics</div></a>
+                        	<a href="/hs_cca/cca/clubs/" class="sub_link"><div class="sub_menu_tab">Clubs &amp; Societies</div></a>
+                        </div>
+                    </div>
+                    <div id="m3" class="navbarmenu" data-link="3">
+					    <a href="/hs_cca/guides/"><div class="menu_tab" id="tab3">Guides</div></a>
+                        <div id="sub3" class="sub_menu">
+                        	<a href="/hs_cca/guides/cca/" class="sub_link"><div class="sub_menu_tab first_tab">The Right CCA</div></a>
+                        	<a href="/hs_cca/guides/tips/" class="sub_link"><div class="sub_menu_tab">Tips</div></a>
+                        	<a href="/hs_cca/guides/life/" class="sub_link"><div class="sub_menu_tab">CCA Life</div></a>
+                        </div>
+                    </div>
+                    <div id="m4" class="navbarmenu" data-link="4">
+					    <a href="/hs_cca/stories/"><div class="menu_tab" id="tab4">Stories</div></a>
+                        <div id="sub4" class="sub_menu">
+                        	<a href="/hs_cca/stories/articles/" class="sub_link"><div class="sub_menu_tab first_tab">Articles</div></a>
+                        	<a href="/hs_cca/stories/testimonials/" class="sub_link"><div class="sub_menu_tab">Testimonials</div></a>
+                        	<a href="/hs_cca/stories/feature/" class="sub_link"><div class="sub_menu_tab">Featured Atheletes</div></a>
+                        </div>
+                    </div>
+                    <div id="m5" class="navbarmenu" data-link="0">
+                        <a href="/hs_cca/faq/"><div class="menu_tab" id="tab5">FAQ &amp; Forum</div></a>
+                    </div>
+                    <div id="m6" class="navbarmenu" data-link="0">
+                        <a href="/hs_cca/about/"><div class="menu_tab" id="tab6">About/Contact</div></a>
+                    </div>
+                    <div id="search-area">
+                        <img src="/hs_cca/images/icon_searchi.png" alt="search" id="search-iconi">
+                        <img src="/hs_cca/images/icon_searcha.png" alt="search" id="search-icona" style="display: none">
+                        <div id="search">
+                            <div class="corner"></div>
+                            <input id="search-input" type="search" autocomplete="off" onfocus="searchf(1)" onblur="searchf(0)" placeholder="Search Site">
+                            <div class="corner"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--/header-->
+        <!--content-->
+        <div id="content" class="wrap">
+            <div id="content-header">
+                <noscript><p id="no-js">You have <strong>not enabled</strong> JavaScript! Many objects on this page will not work properly.</p></noscript>
+                <!--[if lt IE 9]>
+                <p id="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or use another browser to improve your experience.</p>
+                <![endif]-->
+                <a href="/hs_cca/" id="headtt">
+                    <div id="logo"><img src="/hs_cca/images/logo.png" alt="logo"></div>
+                    <h1 id="head-title">PE and CCA</h1>
+                </a>
+            </div>
+                <div id="cca-head">
+                    <img src="/hs_cca/images/cca/clubs/chinesechess.png" alt="logo" id="cca_logo">
+                    <h1 id="cca_title" class="cca_name"><span id="test" data-cca="chinesechess">Chinese Chess</span></h1>
+                    <h4 class="cca_cat"><a href="../" id="cca_cat">Clubs &amp; Societies</a></h4>
+                    <a href="../" title="Back to Category" id="back_cat_a">
+                        <div id="back_cat">
+                            Back to Clubs &amp; Societies
+                        </div>
+                    </a>
+            </div>
+            <div class="hr-divider clear"></div>
+            <div id="topcontent">
+            	<div id="cca-details">
+                    <p>&#25105;&#26657;&#20013;&#22269;&#35937;&#26827;&#38431;&#26377;&#30528;&#20248;&#33391;&#30340;&#21382;&#21490;&#20256;&#32479;&#65292;&#26366;&#38382;&#40718;&#22810;&#39033;&#36187;&#20107;&#12290;&#22312;&#36807;&#21435;&#30340;&#19968;&#24180;&#65292;&#25105;&#26657;&#26827;&#38431;&#22823;&#26377;&#26025;&#33719;&#65292;&#22312;"&#26032;&#21152;&#22369;&#29702;&#24037;&#23398;&#38498;&#26479;"&#35937;&#26827;&#20844;&#24320;&#36187;&#20197;&#24494;&#24046;&#38169;&#22833;&#20896;&#20891;&#65292;&#26368;&#32456;&#23621;&#20122;&#65307;&#22312;&#20854;&#23427;&#19977;&#39033;&#36187;&#20107;&#65292;&#25105;&#26657;&#21017;&#21490;&#26080;&#21069;&#20363;&#22320;&#22842;&#24471;"&#19977;&#20896;&#29579;"&#12290;&#38500;&#20102;&#22312;"&#21335;&#27915;&#29702;&#24037;&#23398;&#38498;&#26479;"&#35937;&#26827;&#20844;&#24320;&#36187;&#65292;"&#33590;&#38451;&#26479;"&#35937;&#26827;&#20010;&#20154;&#36187;&#21644;"&#33713;&#20315;&#22763;&#26479;"&#26657;&#38469;&#35937;&#26827;&#36187;&#25688;&#19979;&#26690;&#20896;&#22806;&#65292;&#25105;&#26657;&#20063;&#33719;&#24471;"&#33590;&#38451;&#26479;"&#31532;&#20108;&#21644;&#31532;&#20845;&#21517;&#21450;"&#33713;&#20315;&#22763;&#26479;"&#20122;&#20891;&#65292;&#25104;&#20026;&#31532;&#19968;&#25903;&#20110;&#21516;&#24180;&#21253;&#21150;"&#33590;&#38451;&#26479;"&#21644;"&#33713;&#20315;&#22763;&#26479;"&#20004;&#39033;&#36187;&#20107;&#20896;&#20122;&#20891;&#30340;&#26827;&#38431;&#12290;&#22312;&#20170;&#24180;&#21021;&#30340;"&#21335;&#27915;&#29702;&#24037;&#23398;&#38498;&#26479;"&#65292;&#25105;&#26657;&#20877;&#25509;&#20877;&#21385;&#65292;&#25104;&#21151;&#21355;&#20885;&#65292;&#20026;2008&#24180;&#20889;&#19979;&#20102;&#22909;&#30340;&#24320;&#22987;&#12290;</p>
+                </div>
+                <div id="featured-photo">
+                    <img src="/hs_cca/images/cca/clubs/featured/chinesechess/top_photo.png" alt="Featured Photo"/>
+                </div>
+            </div>
+            
+            <div class="hr-divider clear"></div>
+            <div id="training_info" class="cca_info">
+            	<div class="split_2">
+                    <h3 id="training-time">Training Dates &amp; Times</h3>
+					<p>Wednesdays (3pm - 5pm)</p>
+					<p>Fridays (2.40pm - 5.20pm)</p>
+					<p><i>There will be additional training days during competition period.</i></p>
+                </div>
+                <div class="split_2">
+                    <h3 id="what-we-do">What we do</h3>
+                    <p>Practise playing chess</p>
+                </div>
+            </div>
+            
+            <div class="hr-divider clear"></div>
+            <div id="trial-info" class="cca_info">
+                <div class="split_3">
+                    <h3 id="trial-dates">Trial Dates</h3>
+                    <ol>
+                        <li><span class="date">15/01/2014</span> <span class="time">14:30</span> - <span class="time">15:30</span></li>
+                        <li><span class="date">16/01/2014</span> <span class="time">14:20</span> - <span class="time">15:20</span></li>
+                        <li><span class="date">22/01/2014</span> <span class="time">14:30</span> - <span class="time">15:30</span></li>
+                        <li><span class="date">23/01/2014</span> <span class="time">16:00</span> - <span class="time">17:00</span></li>
+                        <li><span class="date">24/01/2014</span> <span class="time">14:30</span> - <span class="time">17:30</span></li>
+                        <li><span class="date">29/01/2014</span> <span class="time">15:30</span> - <span class="time">17:30</span></li>
+                    </ol>
+                </div>
+                <div class="split_3">
+                    <h3 id="trial-venue">Venue</h3>
+                    <p>C302</p>
+                </div>
+                <div class="split_3">
+                    <h3 id="trial-attire">Attire</h3>
+                    <p>School Uniform</p>
+                </div>
+            </div>
+            
+            <div class="hr-divider clear"></div>
+            <div id="technical_info" class="cca_info">
+            	<div class="split_2">
+                    <h3 id="teachers-ic">Teachers I/C</h3>
+					<p>Mdm Neo Sock Hoon (&nbsp;<a href="mailto:neosh@hci.edu.sg" class="email">neosh@hci.edu.sg</a>&nbsp;)</p>
+                    <p>Miss Quah Lee Hwang (&nbsp;<a href="mailto:quahlh@hci.edu.sg" class="email">quahlh@hci.edu.sg</a>&nbsp;)</p>
+                    <p>Coach: Mr Khoo Guan Jie</p>
+                </div>
+                <div class="split_2">
+                    <h3 id="requirements">Requirements</h3>
+                    <p>Competency in Chinese Chess</p>
+                </div>
+            </div>
+            <div class="hr-divider clear"></div>
+            
+		<div id="achievements" class="cca_info">
+            <h3 id="achievements">Achievements</h3>
+            
+            <h4>18th Char Yong Cup Students Xiangqi Championship (Zonals, 2013)</h4>
+            <p>Under 14: 1st, 2nd</p>
+            <p>Under 16: 2nd, 3rd, 4th</p>
+
+            <h4>18th Char Yong Cup Students Xiangqi Championship (National, 2013)</h4>
+            <p>Under 14: 3rd</p>
+            <p>Under 16: 2nd, 8th</p>
+            <p>Under 18: 1st, 2nd</p>
+
+            <h4>7th Hwa Chong Chess and Bridge Championships (2013)</h4>
+            <p>Team: 1st, 4th</p>
+
+            <h4>7th Jurong Junior College chess tournament (2013)</h4>
+            <p>Secondary School: 1st, 2nd, 6th Individual</p>
+    
+            <h4>Raffles Cup Team Competition (2013)</h4>
+            <p>Team: 1st, 2nd</p>
+
+            <h4>Raffles Cup Blitz Competition (2013)</h4>
+            <p>Individual: 1st</p>
+
+            <h4>National University School Competition (2013)</h4>
+            <p>Team: 1st, 2nd, 3rd</p>
+
+            <h4>Nanyang Polytechnic Competition (2013)</h4>
+            <p>Team: 1st, 3rd, 4th</p>
+
+            <h4>Singapore Polytechnic Cup (2013)</h4>
+            <p>Team: 1st, 3rd</p>
+            <p>Individual: 2nd, 3rd, 5th</p>
+
+            <h4> Nanyang Technological University Competition (2013)</h4>
+            <p>Team: 2nd, 3rd</p>
+
+            <h4>Battle of The Wits (2012)</h4>
+            <p>Team: 1st, 3rd National</p>
+            
+            <h4>Chung Cheng Cup (2012)</h4>
+            <p>1st National</p>
+
+            <h4>JJC Cup - Chinese Chess Tournament (2012)</h4>
+            <p>Secondary section: 1st and 2nd National</p>
+
+            <h4>NTU Chinese Chess Open (2012)</h4>
+            <p>1st and 4th National</p>
+
+            <h4>PJC Chess Challenge (2012)</h4>
+            <p>1st and 4th National</p>
+
+            <h4>Raffles Inter-School Chinese Chess Competition (Raffles Cup, 2012)</h4>
+            <p>Team: 1st National</p>
+
+            <h4>Battle of The Wits (2011)</h4>
+			<p>Team : 1st, 2nd, 3rd, 4th National</p>
+            <p>Individual: 1st, 2nd, 3rd, 4th National</p>
+
+            <h4>Char Yong Cup - Chinese Chess Tournament (2011)</h4>
+            <p>Under 14/C Div: 4th National</p>
+            <p>Under 16/B Div: 1st, 2nd, 3rd National</p>
+            <p>Under 18: 1st National</p>
+
+            <h4>Chung Cheng Cup (2011)</h4>
+            <p>3rd National</p>
+
+            <h4>JJC Cup - Chinese Chess Tournament (2011)</h4>
+            <p>A Div: 1st National</p>
+            <p>Secondary section: 1st, 2nd National</p>
+
+            <h4>Ma-Xin Xiang Zong Bei Chang Nian Sai (2011)</h4>
+            <p>Youth Group: 2nd National</p>
+
+            <h4>National Chinese Chess Championship (2011)</h4>
+            <p>Under 15: 1st, 4th National</p>
+            <p>Under 17: 2nd National</p>
+            
+            <h4>NTU Chinese Chess Open (2011)</h4>
+            <p>3rd National</p>
+
+            <h4>NYJC Chinese Chess Competition (2011)</h4>
+            <p>Secondary Category: 1st, 3rd National</p>
+
+            <h4>Raffles Inter-School Chinese Chess Competition (Raffles Cup, 2011)</h4>
+            <p>Individual Blitz: 2nd, 3rd National</p>
+            <p>Team: 1st, 2nd, 3rd National</p>
+
+            <h4>River Valley Cup Chinese Chess Double Championship (2011)</h4>
+            <p>1st, 2nd, 4th National</p>
+
+            <h4>West Zone Char Yong Cup - Chinese Chess Tournament (2011)</h4>
+            <p>Under 14/C Div: 1st, 2nd Zonal</p>
+            <p>Under 14 Category/B Div: 1st, 2nd, 3rd, 4th Zonal</p>
+        </div>
+	       
+        <div class="clear"></div>
+        </div>
+        <!--/content-->
+        <!--footer-->
+        <footer class="wrap">
+        	<div id="credits">
+                <div id="copyright">
+                Unless otherwise noted, this work is licensed under the <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International License (CC BY 4.0)</a>.
+                </div>
+                Created by Samuel Leong, Sun Yudong &amp; Ho Jie Feng for Hwa Chong Institution 2013. Maintained by EC&#179;.&nbsp;Last Edited 2014&nbsp;(&nbsp;<a href="/hs_cca/humans.txt" target="_blank" title="The humans responsible & technology colophon">humans.txt</a>&nbsp;)
+                <br/>
+                Some design elements inspired by developer.android.com
+            </div>
+			Change Background: <a onclick="changeBg(this.id);" id="changeBg_light">Light</a> | <a onclick="changeBg(this.id);" id="changeBg_feathers">Feathers</a> | <a onclick="changeBg(this.id);" id="changeBg_brushed">Brushed</a> | <a onclick="changeBg(this.id);" id="changeBg_f9f9f9">White</a>
+            <br/>
+            <a href="/hs_cca/sitemap/" target="_blank">Sitemap</a>&nbsp;|&nbsp;<a href="/hs_cca/report/">Report an Issue</a>
+        </footer>
+        <!--/footer-->
+        <!--overlays-->
+        <div id="move-to-top-wrap">
+            <div id="move-to-top"><img src="/hs_cca/images/gototop.png" alt="Move To Top" id="move-top-icon"></div>
+        </div>
+        <!--/overlays-->
+    </body>
+</html>

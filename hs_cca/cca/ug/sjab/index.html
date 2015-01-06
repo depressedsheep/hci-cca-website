@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en" class="f9f9f9_bg" manifest="/hs_cca/cache.appcache">
+    <head>        
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="robots" />
+        <link rel="icon" href="/hs_cca/images/favicon.ico" type="image/x-icon" />
+        <link rel="author" href="/hs_cca/humans.txt" />
+        <title>CCA Website (St. John's Ambulance Brigade)</title>
+        <meta name="description" content="Hwa Chong PE and CCA Website" />
+        <meta name="keywords" content="CCA, PE, Uniform Groups" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script src="/hs_cca/scripts/detect-mobile.js"></script>
+        
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,700,300' rel='stylesheet' type='text/css' />
+    	<!--[if lte IE 9]>
+            <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400" type='text/css'/> 
+            <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:700" type='text/css'/> 
+            <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300" type='text/css'/>
+            
+            <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic" type='text/css'/> 
+            <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300italic" type='text/css'/> 
+            <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:700italic" type='text/css'/>
+        <![endif]-->
+        
+        <link rel="stylesheet" href="/hs_cca/styles/main.css" type="text/css" />
+		<link rel="stylesheet" href="/hs_cca/styles/cca.css" type="text/css">
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+        <!--[if lte IE 9]>
+            <script src="/hs_cca/html5shiv/dist/html5shiv.js"></script>
+            <script src="/hs_cca/html5shiv/dist/html5shiv-printshiv.js"></script>
+            <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js">IE7_PNG_SUFFIX=".png";</script>
+            <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <![endif]-->
+        <!--[if gt IE 9]><!-->
+            <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+        <!--<![endif]-->
+        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="/hs_cca/scripts/javascript.js"></script>
+        <script src="/hs_cca/scripts/cca.js"></script>
+    </head>
+    <body>
+        <!--header-->
+        <!--<div id="menu_toggle">
+	        <div id="menu_toggle_tab">Menu</div>
+        </div>-->
+        <div id="header-filler"></div>
+        <header class="disableSelect">
+            <div id="navbar">
+                <div id="menu">
+                    <div id="m1" class="navbarmenu" data-link="0">
+                        <a href="/hs_cca/"><div class="menu_tab" id="tab1">Home</div></a>
+                    </div>
+                    <div id="m2" class="navbarmenu" data-link="2">
+                        <a href="/hs_cca/cca/"><div class="menu_tab" id="tab2">The CCAs</div></a>
+                        <div id="sub2" class="sub_menu">
+                            <div id="sub_search" class="sub_menu_tab" >
+	                            <div class="corner"></div>
+                            	<input type="search" id="ccasearch" placeholder="Search CCAs" autocomplete="off" onfocus="ccasearchf(1)" onblur="ccasearchf(0)" />
+                                <div class="corner"></div>
+                            </div>                        
+                        	<a href="/hs_cca/cca/sports/" class="sub_link"><div class="sub_menu_tab first_tab">Sports</div></a>
+                        	<a href="/hs_cca/cca/ug/" class="sub_link"><div class="sub_menu_tab">Uniform Groups</div></a>
+                        	<a href="/hs_cca/cca/aesthetics/" class="sub_link"><div class="sub_menu_tab">Aesthetics</div></a>
+                        	<a href="/hs_cca/cca/clubs/" class="sub_link"><div class="sub_menu_tab">Clubs &amp; Societies</div></a>
+                        </div>
+                    </div>
+                    <div id="m3" class="navbarmenu" data-link="3">
+					    <a href="/hs_cca/guides/"><div class="menu_tab" id="tab3">Guides</div></a>
+                        <div id="sub3" class="sub_menu">
+                        	<a href="/hs_cca/guides/cca/" class="sub_link"><div class="sub_menu_tab first_tab">The Right CCA</div></a>
+                        	<a href="/hs_cca/guides/tips/" class="sub_link"><div class="sub_menu_tab">Tips</div></a>
+                        	<a href="/hs_cca/guides/life/" class="sub_link"><div class="sub_menu_tab">CCA Life</div></a>
+                        </div>
+                    </div>
+                    <div id="m4" class="navbarmenu" data-link="4">
+					    <a href="/hs_cca/stories/"><div class="menu_tab" id="tab4">Stories</div></a>
+                        <div id="sub4" class="sub_menu">
+                        	<a href="/hs_cca/stories/articles/" class="sub_link"><div class="sub_menu_tab first_tab">Articles</div></a>
+                        	<a href="/hs_cca/stories/testimonials/" class="sub_link"><div class="sub_menu_tab">Testimonials</div></a>
+                        	<a href="/hs_cca/stories/feature/" class="sub_link"><div class="sub_menu_tab">Featured Atheletes</div></a>
+                        </div>
+                    </div>
+                    <div id="m5" class="navbarmenu" data-link="0">
+                        <a href="/hs_cca/faq/"><div class="menu_tab" id="tab5">FAQ &amp; Forum</div></a>
+                    </div>
+                    <div id="m6" class="navbarmenu" data-link="0">
+                        <a href="/hs_cca/about/"><div class="menu_tab" id="tab6">About/Contact</div></a>
+                    </div>
+                    <div id="search-area">
+                        <img src="/hs_cca/images/icon_searchi.png" alt="search" id="search-iconi">
+                        <img src="/hs_cca/images/icon_searcha.png" alt="search" id="search-icona" style="display: none">
+                        <div id="search">
+                            <div class="corner"></div>
+                            <input id="search-input" type="search" autocomplete="off" onfocus="searchf(1)" onblur="searchf(0)" placeholder="Search Site">
+                            <div class="corner"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--/header-->
+        <!--content-->
+        <div id="content" class="wrap">
+            <div id="content-header">
+                <noscript><p id="no-js">You have <strong>not enabled</strong> JavaScript! Many objects on this page will not work properly.</p></noscript>
+                <!--[if lt IE 9]>
+                <p id="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or use another browser to improve your experience.</p>
+                <![endif]-->
+                <a href="/hs_cca/" id="headtt">
+                    <div id="logo"><img src="/hs_cca/images/logo.png" alt="logo"></div>
+                    <h1 id="head-title">PE and CCA</h1>
+                </a>
+            </div>
+                <div id="cca-head">
+                    <img src="/hs_cca/images/cca/ug/sjab.png" alt="logo" id="cca_logo">
+                    <h1 id="cca_title" class="cca_name"><span id="test" data-cca="sjab">St. John's Ambulance Brigade</span></h1>
+                    <h4 class="cca_cat"><a href="../" id="cca_cat">Uniform Groups</a></h4>
+                    <a href="../" title="Back to Category" id="back_cat_a">
+                        <div id="back_cat">
+                            Back to Uniform Groups
+                        </div>
+                    </a>
+            </div>
+            <div class="hr-divider clear"></div>
+            <div id="topcontent">
+            	<div id="cca-details">
+                    <p>Hwa Chong St. John Ambulance Brigade has constantly achieved commendable results in competitions, produced distinguished Hwa Chongians of outstanding character and performance, and has never failed to be awarded the Corps Achievement Award (Gold). Our cadets are well-trained and proficient in first-aid skills, have regularly served in countless school events and provided emergency first-aid assistance even in everyday life. Also, they go through the rigour of foot drills and military-styled discipline, before emerging eventually as fine gentlemen who have an important and fundamental set of core values imbued in them. Besides aiding cadets in their personal growth, we place a strong emphasis on the forging of esprit de corps amongst the cadets. It is through these experiences of sharing tears and laughter in a communal environment that cadets develop important team-working and leadership skills that will prove to be highly useful to their success in life in the future.</p>
+                </div>
+                <div id="featured-photo">
+                    <img src="/hs_cca/images/cca/ug/featured/sjab/top_photo.png" alt="Featured Photo"/>
+                </div>
+            </div>
+            
+            <div class="hr-divider clear"></div>
+            <div id="training_info" class="cca_info">
+            	<div class="split_2">
+                    <h3 id="training-time">Training Dates &amp; Times</h3>
+					<p>Wednesdays (3pm - 6.30pm)</p>
+					<p>Fridays (2.30pm - 6pm)</p>
+					<p><i>There will be compulsory badge courses and camps organised by SJAC Zone/HQ, and additional trainings during competition season.</i></p>
+                </div>
+                <div class="split_2">
+                    <h3 id="what-we-do">What we do</h3>
+                    <p style="font-size: 13px;">Cadets undergo regular and strict foot-drill sessions where they learn a wide range of drills. They undergo essential first aid lessons which will educate them on the theoretical and practical aspects of providing first aid. Physical training sessions as well as recreational activities are also organized for the cadets to keep fit, have fun, and bond together as a platoon. As they progress, cadets will get to learn techniques of casualty transportation via a stretcher or even using just their bare hands. It places a high emphasis on teamwork and also requires perseverance and strength. For competition team members, other than transportation of casualty and footdrill, they also learn how to do a first aid case, which mimics a real life situation where casualties are present and a team of first aiders approach them and tend to their injuries.</p>
+                </div>
+            </div>
+            
+            <div class="hr-divider clear"></div>
+            <div id="trial-info" class="cca_info">
+                <div class="split_3">
+                    <h3 id="trial-dates">Trial Dates</h3>
+                    <ol>
+                        <li><span class="date">17/01/2014</span> <span class="time">14:30</span> - <span class="time">17:00</span></li>
+                        <li><span class="date">22/01/2014</span> <span class="time">14:30</span> - <span class="time">17:00</span></li>
+                        <li><span class="date">05/02/2014</span> <span class="time">14:30</span> - <span class="time">17:00</span></li>
+                        <li><span class="date">07/02/2014</span> <span class="time">14:30</span> - <span class="time">17:00</span></li>
+                    </ol>
+                </div>
+                <div class="split_3">
+                    <h3 id="trial-venue">Venue</h3>
+                    <p>SALT Centre (SJAB Room)</p>
+                </div>
+                <div class="split_3">
+                    <h3 id="trial-attire">Attire</h3>
+                    <p>School Uniform (PE Shirt optional)</p>
+                </div>
+            </div>
+            
+            <div class="hr-divider clear"></div>
+            <div id="technical_info" class="cca_info">
+            	<div class="split_2">
+                    <h3 id="teachers-ic">Teachers I/C</h3>
+					<p>Mr Sim Mong Chea (&nbsp;<a href="mailto:simmc@hci.edu.sg" class="email">simmc@hci.edu.sg</a>&nbsp;)</p>
+                    <p>Mdm Ng Hooi Hoon (&nbsp;<a href="mailto:nghh@hci.edu.sg" class="email">nghh@hci.edu.sg</a>&nbsp;)</p>
+                    <p>Mr Christopher Le Pard (&nbsp;<a href="mailto:christopher@hci.edu.sg" class="email">christopher@hci.edu.sg</a>&nbsp;)</p>
+                </div>
+                <div class="split_2">
+                    <h3 id="requirements">Requirements</h3>
+                    <p>No requirements.</p>
+                </div>
+            </div>
+            <div class="hr-divider clear"></div>
+            
+		<div id="achievements" class="cca_info">
+            <h3 id="achievements">Achievements</h3>
+            <p>2013 - Inter-Corps First Aid and Home Nursing Competition - Ambulance Cadet Team - 1st Runner Up</p>
+            <p>2013 - Inter-Corps First Aid and Home Nursing Competition - Ambulance Adult Team - Champions</p>
+            <p>2013 - Inter-Zone First Aid and Home Nursing Competition - Ambulance Adult Team - Overall Champions</p>
+            <p>2013 - 29th Singapore - Malaysia First Aid and Home Nursing Competition - Ambulance Cadet - Overall champions</p>
+            <p>2013 - 29th Singapore - Malaysia First Aid and Home Nursing Competition - Ambulance Adult - Overall champions</p>
+            
+            <p>Ambulance Adult and Ambulance Cadet Champion Teams in Inter Corps - Zone 7 First Aid and Home Nursing Competition 2012</p>
+            <p>Ambulance Cadet Champion Team in the Singapore - Malaysia First Aid and Home Nursing Competition 2011</p>
+            <p>Ambulance Adult Second Runner-Up Team and Ambulance Cadet Champion Team in the National First Aid and Home Nursing Competition 2011</p>
+            <p>Ambulance Adult and Ambulance Cadet Champion Teams in Inter Corps - Zone 7 First Aid and Home Nursing Competition 2011</p>
+            <p>12 Consecutive Corps Achievement Award (Gold) since 1999</p>
+            <p>7th top collector in Walkathon 2011</p>
+            <p>Top 3 Positions for Inter Corps, Inter Zone, and Singapore-Malaysia First Aid and Home Nursing Competition for the past few years</p>
+            <p>Highest Donation Drive in Zonal Level 2011
+            <p>2012 - Inter-Corps First Aid and Home Nursing Competition - Ambulance Adult Team - 1st National</p>
+            <p>2012 - Inter-Corps First Aid and Home Nursing Competition - Ambulance Cadet Team - 1st National</p>
+            <p>2012 - Inter-Zone First Aid and Home Nursing Competition - Ambulance Adult Team - 1st National</p>
+            <p>2012 - Inter-Zone First Aid and Home Nursing Competition - Ambulance Cadet Team - 1st National</p>
+        </div>
+	       
+        <div class="clear"></div>
+        </div>
+        <!--/content-->
+        <!--footer-->
+        <footer class="wrap">
+        	<div id="credits">
+                <div id="copyright">
+                Unless otherwise noted, this work is licensed under the <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International License (CC BY 4.0)</a>.
+                </div>
+                Created by Samuel Leong, Sun Yudong &amp; Ho Jie Feng for Hwa Chong Institution 2013. Maintained by EC&#179;.&nbsp;Last Edited 2014&nbsp;(&nbsp;<a href="/hs_cca/humans.txt" target="_blank" title="The humans responsible & technology colophon">humans.txt</a>&nbsp;)
+                <br/>
+                Some design elements inspired by developer.android.com
+            </div>
+			Change Background: <a onclick="changeBg(this.id);" id="changeBg_light">Light</a> | <a onclick="changeBg(this.id);" id="changeBg_feathers">Feathers</a> | <a onclick="changeBg(this.id);" id="changeBg_brushed">Brushed</a> | <a onclick="changeBg(this.id);" id="changeBg_f9f9f9">White</a>
+            <br/>
+            <a href="/hs_cca/sitemap/" target="_blank">Sitemap</a>&nbsp;|&nbsp;<a href="/hs_cca/report/">Report an Issue</a>
+        </footer>
+        <!--/footer-->
+        <!--overlays-->
+        <div id="move-to-top-wrap">
+            <div id="move-to-top"><img src="/hs_cca/images/gototop.png" alt="Move To Top" id="move-top-icon"></div>
+        </div>
+        <!--/overlays-->
+    </body>
+</html>

@@ -1,0 +1,18 @@
+fix navbar (320 x 480)
+
+stories content
+forum
+
+Mobile site (re-enable mobile to desktop redirect b4 release
+
+---future---
+https://support.google.com/webmasters/answer/93641?hl=en useful 404 pages
+obtain newest icons from ccas -> grid
+when publishing: javascript.min.js
+
+---basic compat---
+Chrome 31+
+Firefox 26+
+Safari 7+
+Opera 18+
+IE 9+

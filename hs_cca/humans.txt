@@ -1,0 +1,25 @@
+# humanstxt.org/
+# The humans responsible and technology colophon
+
+# TEAM
+Samuel Leong Chee Weng
+Email: samleocw@gmail.com
+Location: Singapore, Singapore
+
+Sun Yudong
+Email: sunjerry019@gmail.com
+Twitter: @yudongsun019
+Location: Singapore, Singapore
+
+Ho Jie Feng
+Email: hjf3108@gmail.com
+Location: Singapore, Singapore
+
+# THANKS
+Lor Jun Heng, Email: mad.doctor.lor@gmail.com
+
+# SITE
+Last update: 17/01/2014 10:12:02.20 SST
+Standards: HTML5, CSS3
+Components: jQuery, jQuery UI, html5shiv
+Software: Microsoft WebMatrix, Adobe Dreamweaver

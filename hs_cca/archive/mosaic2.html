@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Mosiac Test</title>
+        <style>
+            #mosiac{
+                width:1000px;
+                transition: all 0.3s ease;
+                border: 1px solid #aaa;
+                position: relative;
+            }
+            
+            .mosiac-box{
+                float: none;
+                display: inline-block;
+                width: 230px;
+                height: 150px;
+                margin: 5px;
+                border: 1px solid #aaa;
+                transition: all 0.3s ease;
+            }
+
+            .op{
+                display: inline-block;
+                width: 480px;
+                transition: all 0.3s ease;
+            }
+        </style>
+        <script>
+            var swap1 = "", swap2 = ""; //save the swapped objects
+
+            function expand(obj) {
+                oriClass = obj.className;
+                c = document.getElementsByClassName("mosiac-box");
+                for (i = 0; i < c.length; i++) {
+                    c[i].className = "mosiac-box";
+                    c[i].style.width = "";
+                    c[i].style.border = "";
+                }
+
+                if (swap1 != swap2) {
+                    //swapContent(swap1, swap2);
+                    swap1 = swap2 = "";
+                }
+
+                if (oriClass == "mosiac-box") {
+                    ind = parseInt(obj.id.split("mbox")[1] - 1);
+                    /*if (ind % 4) { //its not the one on the left
+                        row = (parseInt(ind / 4)*4 + 1);
+                        ele = document.getElementById("mbox" + row);
+                        //swapContent(ele, obj);
+                        swap1 = obj;
+                        swap2 = ele;
+                    }
+                    else ele = obj;*/
+                    if((ind%4)==3)
+                    {
+                    document.getElementById("mbox" + parseInt(ind)).style.width = "0px";
+                    document.getElementById("mbox" + parseInt(ind)).style.border = "none";
+                    }
+                    ele = obj;
+                    ele.className += " op";
+                }
+            }
+
+            function swapContent(obj1, obj2) {
+                tmp = obj1.innerHTML;
+                obj1.innerHTML = obj2.innerHTML;
+                obj2.innerHTML = tmp;
+            }
+        </script>
+    </head>
+    <body>
+        <div id="mosiac">
+            <div class="mosiac-box" onclick="expand(this)" id="mbox1">1</div>
+            <div class="mosiac-box" onclick="expand(this)" id="mbox2">2</div>
+            <div class="mosiac-box" onclick="expand(this)" id="mbox3">3</div>
+            <div class="mosiac-box" onclick="expand(this)" id="mbox4">4</div>
+            <div class="mosiac-box" onclick="expand(this)" id="mbox5">5</div>
+            <div class="mosiac-box" onclick="expand(this)" id="mbox6">6</div>
+            <div class="mosiac-box" onclick="expand(this)" id="mbox7">7</div>
+            <div class="mosiac-box" onclick="expand(this)" id="mbox8">8</div>
+        </div>
+    </body>
+</html>

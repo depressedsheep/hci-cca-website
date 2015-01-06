@@ -1,0 +1,84 @@
+p {
+    text-align: justify;
+}
+
+#sd_model {
+    height: 685px;
+    width: 392px;
+    float: left;
+}
+
+#aboutContent ul {
+    list-style: square inside url('data:image/gif;base64,R0lGODlhBQAKAIABAAAAAP///yH5BAEAAAEALAAAAAAFAAoAAAIIjI+ZwKwPUQEAOw==');
+}
+
+#contactInfo {
+    width: 400px;
+    float: left;
+    margin-right: 20px;
+}
+
+/*form*/
+#contactF {
+    font-size: 15px;
+}
+
+#contactF fieldset {
+    padding: 10px;
+}
+
+#contactF table {
+    border: none;
+    border-collapse: collapse;
+}
+
+#Cmsg {
+    height: 80px;
+    width: 413px;
+    font-family: 'Open Sans', 'Calibri', 'Arial', sans-serif;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #aaa;
+    padding: 3px;
+    background-color: transparent;
+    margin-bottom: 0px;
+}
+
+#contactF input.txt {
+    font-size: 15px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #aaa;
+    width: 178px;
+    height: 24px;
+    font-family: 'Open Sans', 'Calibri', 'Arial', sans-serif;
+    display: inline-block;
+    padding: 3px;
+    background-color: transparent;
+}
+
+#contactF .cfr td {
+    padding-bottom: 10px;
+}
+
+#contactF .cfr:nth-child(4n) td {
+    border-top: 1px dashed #aaa;
+}
+
+/*#contactF .cfr td:nth-child(2n) {
+    width: 423px;
+}*/
+
+#contactF .cfr td:nth-child(2n-1) {
+    padding-right: 10px;
+    vertical-align: bottom;
+}
+
+#CmsgBox .corner {
+    -webkit-margin-after: 4px; /*apply this only to webkit browsers*/
+}
+
+/*#phpresponse {
+    display: none;
+}*/

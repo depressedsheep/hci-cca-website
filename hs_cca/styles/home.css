@@ -1,0 +1,28 @@
+#cca-schedule {
+    border-collapse: collapse;
+    margin-top: 5px;
+    margin-left: -40px;
+}
+#cca-schedule td {
+    border: 1px dashed #aaa;
+    padding: 5px;
+}
+
+#cca-schedule tr:not(:first-child) td:not(:first-child){
+}
+
+#cca-schedule td h3 {
+    text-align: center;
+    font-weight: 700;
+}
+
+#cca-schedule tr:first-child td{
+    font-weight: 300;
+    font-size: 120%;
+    text-align: center;
+    background: #EDEDED;
+}
+
+#cca-schedule td:first-child{
+    width: 45%;
+}

@@ -1,0 +1,127 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700);
+/*<global>*/
+html
+{
+	background-color: #F9F9F9;
+	color: #302D2D;
+}
+body
+{
+	padding:10px;
+	padding-top:0;
+	margin-top:0;
+    font-family: 'Open Sans', sans-serif;
+}
+/*</global>*/
+
+/*<header>*/
+.wrap{
+	max-width:1000px;
+	margin: 0 auto;
+	/*
+	left:0; 
+	right:0;
+	position:absolute;
+	/**/
+}
+
+#menu{
+			
+}
+
+.menu_tab:hover,.menu_tab.mouse_over{
+	background-color:#EDEDED;
+}
+
+.menu_tab{
+	display:inline-block;
+	width:13%;
+	margin-right:-4px;
+	min-width:13%;
+	max-width:18%;
+	padding:10px;
+	text-align:center;
+	border-right:1px solid #CFCFCE;
+	transition:all 0.3s;	
+}
+
+#menu_search{
+	display:inline-block;
+	width:2%;
+	margin-right:-4px;
+	padding:10px;
+	text-align:center;
+	border-right:1px solid #CFCFCE;
+	transition:all 0.3s;
+}
+
+#tab1{
+	border-left:1px solid #CFCFCE;
+	border-bottom:2px solid rgba(190,0,0,.4);
+}
+
+#tab1:hover,#tab3.mouse_over{
+	border-bottom:2px solid rgb(190,0,0);
+}
+
+#tab2{
+	border-bottom:2px solid rgba(249,80,80,.4);
+}
+
+#tab2:hover,#tab1.mouse_over{
+	border-bottom:2px solid rgb(249,80,80);
+}
+
+#tab3{
+	border-bottom:2px solid rgba(255,178,64,.4);
+}
+
+#tab3:hover,#tab2.mouse_over{
+	border-bottom:2px solid rgb(255,178,64);
+}
+
+#tab4{
+	border-bottom:2px solid rgba(61,208,45,.4);
+}
+
+#tab4:hover,#tab4.mouse_over{
+	border-bottom:2px solid rgb(61,208,45);
+}
+
+#tab5{
+	border-bottom:2px solid rgba(44,136,198,.4);
+}
+
+#tab5:hover,#tab5.mouse_over{
+	border-bottom:2px solid rgb(44,136,198);
+}
+
+#tab6{
+	border-bottom:2px solid rgba(170,90,191,.4);
+}
+
+#tab6:hover,#tab6.mouse_over{
+	border-bottom:2px solid rgb(170,90,191);
+}
+
+#header{
+	
+}
+
+#navbar{
+	height:100%;	
+}
+/*</header>*/
+
+/*<footer>*/
+#footer{
+	
+}
+
+#content{
+	
+}
+/*</footer>*/
+
+/*<overlay>*/
+/*</overlay>*/

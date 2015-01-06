@@ -1,0 +1,13 @@
+CACHE MANIFEST
+# 17/01/2014 10:12:02.16 v1.0
+CACHE:
+/hs_cca/offline/index.html
+/hs_cca/styles/main.css
+/hs_cca/styles/cca.css
+/hs_cca/scripts/javascript.js
+/hs_cca/images/favicon.ico
+/hs_cca/images/logo.png
+NETWORK:
+*
+FALLBACK:
+/hs_cca/ /hs_cca/offline/index.html

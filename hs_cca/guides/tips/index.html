@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en" class="f9f9f9_bg" manifest="/hs_cca/cache.appcache">
+    <head>        
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="robots" />
+        <link rel="icon" href="/hs_cca/images/favicon.ico" type="image/x-icon" />
+        <link rel="author" href="/hs_cca/humans.txt" />
+        <title>CCA Website (Tips & Info)</title>
+        <meta name="description" content="Hwa Chong PE and CCA Website" />
+        <meta name="keywords" content="CCA, PE, Guides" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script src="/hs_cca/scripts/detect-mobile.js"></script>
+        
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,700,300' rel='stylesheet' type='text/css' />
+    	<!--[if lte IE 9]>
+            <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400" type='text/css'/> 
+            <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:700" type='text/css'/> 
+            <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300" type='text/css'/>
+            
+            <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic" type='text/css'/> 
+            <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300italic" type='text/css'/> 
+            <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:700italic" type='text/css'/>
+        <![endif]-->
+        
+        <link rel="stylesheet" href="/hs_cca/styles/main.css" type="text/css" />
+        <link rel="stylesheet" href="/hs_cca/styles/guides.css" type="text/css" />
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+        <!--[if lte IE 9]>
+            <script src="html5shiv/dist/html5shiv.js"></script>
+            <script src="html5shiv/dist/html5shiv-printshiv.js"></script>
+            <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js">IE7_PNG_SUFFIX=".png";</script>
+            <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <![endif]-->
+        <!--[if gt IE 9]><!-->
+            <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+        <!--<![endif]-->
+        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="/hs_cca/scripts/javascript.js"></script>
+    </head>
+    <body>
+        <!--header-->
+        <!--<div id="menu_toggle">
+	        <div id="menu_toggle_tab">Menu</div>
+        </div>-->
+        <div id="header-filler"></div>
+        <header class="disableSelect">
+            <div id="navbar">
+                <div id="menu">
+                    <div id="m1" class="navbarmenu" data-link="0">
+                        <a href="/hs_cca/"><div class="menu_tab" id="tab1">Home</div></a>
+                    </div>
+                    <div id="m2" class="navbarmenu" data-link="2">
+                        <a href="/hs_cca/cca/"><div class="menu_tab" id="tab2">The CCAs</div></a>
+                        <div id="sub2" class="sub_menu">
+                            <div id="sub_search" class="sub_menu_tab" >
+	                            <div class="corner"></div>
+                            	<input type="search" id="ccasearch" placeholder="Search CCAs" autocomplete="off" onfocus="ccasearchf(1)" onblur="ccasearchf(0)" />
+                                <div class="corner"></div>
+                            </div>                        
+                        	<a href="/hs_cca/cca/sports/" class="sub_link"><div class="sub_menu_tab first_tab">Sports</div></a>
+                        	<a href="/hs_cca/cca/ug/" class="sub_link"><div class="sub_menu_tab">Uniform Groups</div></a>
+                        	<a href="/hs_cca/cca/aesthetics/" class="sub_link"><div class="sub_menu_tab">Aesthetics</div></a>
+                        	<a href="/hs_cca/cca/clubs/" class="sub_link"><div class="sub_menu_tab">Clubs &amp; Societies</div></a>
+                        </div>
+                    </div>
+                    <div id="m3" class="navbarmenu" data-link="3">
+					    <a href="/hs_cca/guides/"><div class="menu_tab" id="tab3">Guides</div></a>
+                        <div id="sub3" class="sub_menu">
+                        	<a href="/hs_cca/guides/cca/" class="sub_link"><div class="sub_menu_tab first_tab">The Right CCA</div></a>
+                        	<a href="" class="sub_link"><div class="sub_menu_tab">Tips</div></a>
+                        	<a href="/hs_cca/guides/life/" class="sub_link"><div class="sub_menu_tab">CCA Life</div></a>
+                        </div>
+                    </div>
+                    <div id="m4" class="navbarmenu" data-link="4">
+					    <a href="/hs_cca/stories/"><div class="menu_tab" id="tab4">Stories</div></a>
+                        <div id="sub4" class="sub_menu">
+                        	<a href="/hs_cca/stories/articles/" class="sub_link"><div class="sub_menu_tab first_tab">Articles</div></a>
+                        	<a href="/hs_cca/stories/testimonials/" class="sub_link"><div class="sub_menu_tab">Testimonials</div></a>
+                        	<a href="/hs_cca/stories/feature/" class="sub_link"><div class="sub_menu_tab">Featured Atheletes</div></a>
+                        </div>
+                    </div>
+                    <div id="m5" class="navbarmenu" data-link="0">
+                        <a href="/hs_cca/faq/"><div class="menu_tab" id="tab5">FAQ &amp; Forum</div></a>
+                    </div>
+                    <div id="m6" class="navbarmenu" data-link="0">
+                        <a href="/hs_cca/about/"><div class="menu_tab" id="tab6">About/Contact</div></a>
+                    </div>
+                    <div id="search-area">
+                        <img src="/hs_cca/images/icon_searchi.png" alt="search" id="search-iconi">
+                        <img src="/hs_cca/images/icon_searcha.png" alt="search" id="search-icona" style="display: none">
+                        <div id="search">
+                            <div class="corner"></div>
+                            <input id="search-input" type="search" autocomplete="off" onfocus="searchf(1)" onblur="searchf(0)" placeholder="Search Site">
+                            <div class="corner"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--/header-->
+        <!--content-->
+        <div id="content" class="wrap">
+            <div id="content-header">
+                <noscript><p id="no-js">You have <strong>not enabled</strong> JavaScript! Many objects on this page will not work properly.</p></noscript>
+                <!--[if lt IE 9]>
+                <p id="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or use another browser to improve your experience.</p>
+                <![endif]-->
+                <a href="/hs_cca/" id="headtt">
+                    <div id="logo"><img src="/hs_cca/images/logo.png" alt="logo"></div>
+                    <h1 id="head-title">PE and CCA</h1>
+                </a>
+            </div>
+            <div id="topcontent">
+                <a href="/hs_cca/guides/" class="backlink"><div>Back to Guides</div></a>
+                <h2 id="website-title">CCA Guides</h2>
+                <p>Choice of CCA is crucial. The CCA you have chosen should hopefully be your commitment for the next 4 years in Hwa Chong (High School)</p>
+                <p>Doing well in your CCA requires commitment, but you must of course find balance between schoolwork, social/family life and rest.</p>
+                <p>Here are some tips and important information to help you choose your CCA.</p>
+            </div>
+            <div class="hr-divider"></div>
+            <div id="guides-content">
+                <div id="weighing-cca-choice">
+                    <h3 id="choosing-your-cca">Choosing your CCA</h3>
+                    <p>It is very important that you choose your CCA wisely and try your best to get into the CCAs of your choice.</p>
+                    <p>As such, here is a compiled list of tips to help your in your decision making.</p>
+                    <ol>
+                        <li>
+                            <h3>Be Informed about the CCAs</h3>
+                            <p>Hwa Chong offers 40 CCAs, from 4 different categories (<a href="/hs_cca/cca/sports/">Sports</a>, <a href="/hs_cca/cca/ug/">Uniform Groups</a>, <a href="/hs_cca/cca/aesthetics/">Aesthetics</a> and <a href="/hs_cca/cca/clubs/">Clubs &amp; Societies</a>). </p>
+                            <p>With so many CCAs to choose from, It is crucial that you browse through all the CCAs so you can make a well-informed decision.</p>
+                            <p>You should also look through and apply for CCAs even if you think you have no chance of getting in. Perhaps you may find your potential and flair in that CCA.</p>
+                            <p>You can read and browse through the CCAs <a href="/hs_cca/cca/">here</a>.</p>
+                        </li>
+                        <li>
+                            <h3>Make a list of the CCAs you are interested in</h3>
+                            <p>It is wise to make a list of all the CCAs that you are interested in (after browsing through). Try to include CCAs from different categories as much as possible.</p>
+                            <p>This compiled list will come in handy when you are asked to choose your CCA via the online portal.</p>
+                            <p>Apply for all these CCAs and all the best on getting that <a href="/hs_cca/guides/cca/#confirmed-offer-def">confirmed offer</a>!</p>
+                        </li>
+                        <li>
+                            <h3>Weigh your interest and abilities</h3>
+                            <p>The nature of CCAs in Hwa Chong are <a href="#nature">competitive</a>.</p>
+                            <p>There is therefore a need to have both <a href="/hs_cca/guides/cca#weighing-interest-ability">ability and interest</a> when choosing a CCA.</p>
+                            <p>However, do note that having an <a href="/hs_cca/guides/cca/#ability-definition">ability</a> for a CCA does not necessarily mean having a particular skillset. It could just be the passion for learning.</p>
+                        </li>
+                        <li>
+                            <h3>Parents' Expectations and Your Own Interests</h3>
+                            <p>The nature of CCAs in Hwa Chong are <a href="#nature">competitive</a>.</p>
+                            <p>There is therefore a need to have both <a href="/hs_cca/guides/cca#weighing-interest-ability">ability and interest</a> when choosing a CCA.</p>
+                            <p>However, do note that having an <a href="/hs_cca/guides/cca/#ability-definition">ability</a> for a CCA does not necessarily mean having a particular skillset. It could just be the passion for learning.</p>
+                        </li>
+                        <li>
+                            <h3>Check out the guides</h3>
+                            <p>The CCA website has many guides that could help you:</p>
+                            <h3><a href="/hs_cca/guides/cca/#weighing-cca-choice">More Detailed Tips on Choosing the Right CCA...</a></h3>
+                            <p><a href="#school-differences">Understanding the Differences between the primary & secondary school system</a></p>
+                            <p><a href="/hs_cca/guides/cca/#weighing-interest-ability">Weighing your Interest & Ability</a></p>
+                        </li>
+                    </ol>
+                </div>
+                <div class="hr-divider"></div>
+                <div id="school-differences">
+                    <h3 id="school-differences-systems">Differences between Primary and Secondary School System</h3>
+                    <small id="cca-footnote">*Note that some of the CCA systems may differ for primary schools</small>
+                    <table id="weighingGuide">
+                        <tr>
+                            <td></td>
+                            <td>Primary School</td>
+                            <td>Hwa Chong</td>
+                        </tr>
+                        <tr id="requirement">
+                            <td>CCA Requirement</td>
+                            <td>
+                                <h3>Optional</h3>
+                                <p>If I want a CCA, I can join one, but if I do not want a CCA, I can just choose not to have one<a href="#cca-footnote" class="cca-footnote"> *</a></p>
+                            </td>
+                            <td>
+                                <h3>Compulsory</h3>
+                                <p>Every student is required to take up at least 1 CCA. (More than 1 CCA is not recommended)</p>
+                            </td>
+                        </tr>
+                        <tr id="cca-limit">
+                            <td>Maximum no. of CCAs</td>
+                            <td>
+                                <h3>Unlimited</h3>
+                                <p>As many CCAs as we want<a href="#cca-footnote" class="cca-footnote"> *</a></p>
+                            </td>
+                            <td>
+                                <h3>1 CCA</h3>
+                                <p>Every student is advised to take up only one CCA.</p>
+                                <p>However, 2 CCAs are also allowed on a case-by-case basis.</p>
+                            </td>
+                        </tr>
+                        <tr id="quitting">
+                            <td>Quitting</td>
+                            <td>
+                                <h3>Can quit anytime</h3>
+                                <p>If I feel that this CCA is not suitable for me, I can just quit/change my CCA<a href="#cca-footnote" class="cca-footnote"> *</a></p>
+                            </td>
+                            <td>
+                                <h3>Must be sustained over 4 years in High School</h3>
+                                <p>If you quit your original CCA, then the development that particular CCA will not be complete, and you will end up not being able to acquire the relevant skills and maximise your potential fully.</p>
+                            </td>
+                        </tr>
+                        <tr id="nature">
+                            <td>Nature of CCA</td>
+                            <td>
+                                <h3>Recreational/Enrichment</h3>
+                                <p>CCAs are mainly recreational or just for student's exposure.</p>
+                            </td>
+                            <td>
+                                <h3>Competitive &amp; recreational</h3>
+                                <p>Structure and Development more complete</p>
+                                <p>Through the four years in the CCA, you will be able to build our character and hone your skills and in a particular area.</p>
+                            </td>
+                        </tr>
+                        <tr id="attendance">
+                            <td>Attendance</td>
+                            <td>
+                                <h3>Lenient</h3>
+                                <p>In most cases, attendance not taken</p>
+                            </td>
+                            <td>
+                                <h3>Stringent</h3>
+                                <p>Must meet a certain percentage of attendance</p>
+                                <p>Teachers/ExCo will keep track of attendance and there must be a valid excuse (MC, school events) for skipping CCA.</p>
+                            </td>
+                        </tr>
+                        <tr id="allocation">
+                            <td>CCA Allocation</td>
+                            <td>
+                                <h3>First come, First serve</h3>
+                                <p>If the students register for a CCA, they will get into the CCA unless all slots available have been filled up.<a href="#cca-footnote" class="cca-footnote"> *</a></p>
+                            </td>
+                            <td>
+                                <h3>Weighing between interest and ability</h3>
+                                <p>Since the nature of the CCA is competitive, most CCAs will conduct selection tests to seek out students with both ability and interest</p>
+                                <p><a href="/hs_cca/guides/cca/">More info here...</a></p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="clear"></div>
+        </div>
+        <!--/content-->
+        <!--footer-->
+        <footer class="wrap">
+        	<div id="credits">
+                <div id="copyright">
+                Unless otherwise noted, this work is licensed under the <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International License (CC BY 4.0)</a>.
+                </div>
+                Created by Samuel Leong, Sun Yudong &amp; Ho Jie Feng for Hwa Chong Institution 2013. Maintained by EC&#179;.&nbsp;Last Edited 2014&nbsp;(&nbsp;<a href="/hs_cca/humans.txt" target="_blank" title="The humans responsible & technology colophon">humans.txt</a>&nbsp;)
+                <br/>
+                Some design elements inspired by developer.android.com
+            </div>
+			Change Background: <a onclick="changeBg(this.id);" id="changeBg_light">Light</a> | <a onclick="changeBg(this.id);" id="changeBg_feathers">Feathers</a> | <a onclick="changeBg(this.id);" id="changeBg_brushed">Brushed</a> | <a onclick="changeBg(this.id);" id="changeBg_f9f9f9">White</a>
+            <br/>
+            <a href="/hs_cca/sitemap.html" target="_blank">Sitemap</a>&nbsp;|&nbsp;<a href="/hs_cca/report/">Report an Issue</a>
+        </footer>
+        <!--/footer-->
+        <!--overlays-->
+        <div id="move-to-top-wrap" class="disableSelect">
+            <div id="move-to-top"><img src="/hs_cca/images/gototop.png" alt="Move To Top" id="move-top-icon"></div>
+        </div>
+        <!--/overlays-->
+    </body>
+</html>

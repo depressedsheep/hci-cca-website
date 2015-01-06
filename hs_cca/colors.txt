@@ -1,0 +1,23 @@
+BG: #F9F9F9
+Text: #302D2D
+#716b6b light black
+#AAAAAA gray
+#9b9b9b gray
+#999999 gray
+
+#FF8800 pink
+#FFCB5D light yellow
+#99CC00 green
+#D41547 fuschia
+#BE0000 maroon (main red)
+#700B26 dark maroon
+
+#DD4814 Ubuntu Orange
+#FF8800 orange
+#FFAF05 light orange
+#0099CC blue
+#33b5e5 light blue;
+#CC0099 purple
+
+#ff7070 softer red
+#F9EDBE soft notif yellow

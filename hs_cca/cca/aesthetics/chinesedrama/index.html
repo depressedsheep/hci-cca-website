@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en" class="f9f9f9_bg" manifest="/hs_cca/cache.appcache">
+    <head>        
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="robots" />
+        <link rel="icon" href="/hs_cca/images/favicon.ico" type="image/x-icon" />
+        <link rel="author" href="/hs_cca/humans.txt" />
+        <title>CCA Website (Chinese Drama)</title>
+        <meta name="description" content="Hwa Chong PE and CCA Website" />
+        <meta name="keywords" content="CCA, PE, Aesthetics" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script src="/hs_cca/scripts/detect-mobile.js"></script>
+        
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,700,300' rel='stylesheet' type='text/css' />
+    	<!--[if lte IE 9]>
+            <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400" type='text/css'/> 
+            <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:700" type='text/css'/> 
+            <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300" type='text/css'/>
+            
+            <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic" type='text/css'/> 
+            <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300italic" type='text/css'/> 
+            <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:700italic" type='text/css'/>
+        <![endif]-->
+        
+        <link rel="stylesheet" href="/hs_cca/styles/main.css" type="text/css" />
+		<link rel="stylesheet" href="/hs_cca/styles/cca.css" type="text/css">
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+        <!--[if lte IE 9]>
+            <script src="/hs_cca/html5shiv/dist/html5shiv.js"></script>
+            <script src="/hs_cca/html5shiv/dist/html5shiv-printshiv.js"></script>
+            <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js">IE7_PNG_SUFFIX=".png";</script>
+            <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <![endif]-->
+        <!--[if gt IE 9]><!-->
+            <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+        <!--<![endif]-->
+        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="/hs_cca/scripts/javascript.js"></script>
+        <script src="/hs_cca/scripts/cca.js"></script>
+    </head>
+    <body>
+        <!--header-->
+        <!--<div id="menu_toggle">
+	        <div id="menu_toggle_tab">Menu</div>
+        </div>-->
+        <div id="header-filler"></div>
+        <header class="disableSelect">
+            <div id="navbar">
+                <div id="menu">
+                    <div id="m1" class="navbarmenu" data-link="0">
+                        <a href="/hs_cca/"><div class="menu_tab" id="tab1">Home</div></a>
+                    </div>
+                    <div id="m2" class="navbarmenu" data-link="2">
+                        <a href="/hs_cca/cca/"><div class="menu_tab" id="tab2">The CCAs</div></a>
+                        <div id="sub2" class="sub_menu">
+                            <div id="sub_search" class="sub_menu_tab" >
+	                            <div class="corner"></div>
+                            	<input type="search" id="ccasearch" placeholder="Search CCAs" autocomplete="off" onfocus="ccasearchf(1)" onblur="ccasearchf(0)" />
+                                <div class="corner"></div>
+                            </div>                        
+                        	<a href="/hs_cca/cca/sports/" class="sub_link"><div class="sub_menu_tab first_tab">Sports</div></a>
+                        	<a href="/hs_cca/cca/ug/" class="sub_link"><div class="sub_menu_tab">Uniform Groups</div></a>
+                        	<a href="/hs_cca/cca/aesthetics/" class="sub_link"><div class="sub_menu_tab">Aesthetics</div></a>
+                        	<a href="/hs_cca/cca/clubs/" class="sub_link"><div class="sub_menu_tab">Clubs &amp; Societies</div></a>
+                        </div>
+                    </div>
+                    <div id="m3" class="navbarmenu" data-link="3">
+					    <a href="/hs_cca/guides/"><div class="menu_tab" id="tab3">Guides</div></a>
+                        <div id="sub3" class="sub_menu">
+                        	<a href="/hs_cca/guides/cca/" class="sub_link"><div class="sub_menu_tab first_tab">The Right CCA</div></a>
+                        	<a href="/hs_cca/guides/tips/" class="sub_link"><div class="sub_menu_tab">Tips</div></a>
+                        	<a href="/hs_cca/guides/life/" class="sub_link"><div class="sub_menu_tab">CCA Life</div></a>
+                        </div>
+                    </div>
+                    <div id="m4" class="navbarmenu" data-link="4">
+					    <a href="/hs_cca/stories/"><div class="menu_tab" id="tab4">Stories</div></a>
+                        <div id="sub4" class="sub_menu">
+                        	<a href="/hs_cca/stories/articles/" class="sub_link"><div class="sub_menu_tab first_tab">Articles</div></a>
+                        	<a href="/hs_cca/stories/testimonials/" class="sub_link"><div class="sub_menu_tab">Testimonials</div></a>
+                        	<a href="/hs_cca/stories/feature/" class="sub_link"><div class="sub_menu_tab">Featured Atheletes</div></a>
+                        </div>
+                    </div>
+                    <div id="m5" class="navbarmenu" data-link="0">
+                        <a href="/hs_cca/faq/"><div class="menu_tab" id="tab5">FAQ &amp; Forum</div></a>
+                    </div>
+                    <div id="m6" class="navbarmenu" data-link="0">
+                        <a href="/hs_cca/about/"><div class="menu_tab" id="tab6">About/Contact</div></a>
+                    </div>
+                    <div id="search-area">
+                        <img src="/hs_cca/images/icon_searchi.png" alt="search" id="search-iconi">
+                        <img src="/hs_cca/images/icon_searcha.png" alt="search" id="search-icona" style="display: none">
+                        <div id="search">
+                            <div class="corner"></div>
+                            <input id="search-input" type="search" autocomplete="off" onfocus="searchf(1)" onblur="searchf(0)" placeholder="Search Site">
+                            <div class="corner"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--/header-->
+        <!--content-->
+        <div id="content" class="wrap">
+            <div id="content-header">
+                <noscript><p id="no-js">You have <strong>not enabled</strong> JavaScript! Many objects on this page will not work properly.</p></noscript>
+                <!--[if lt IE 9]>
+                <p id="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or use another browser to improve your experience.</p>
+                <![endif]-->
+                <a href="/hs_cca/" id="headtt">
+                    <div id="logo"><img src="/hs_cca/images/logo.png" alt="logo"></div>
+                    <h1 id="head-title">PE and CCA</h1>
+                </a>
+            </div>
+                <div id="cca-head">
+                    <img src="/hs_cca/images/cca/aesthetics/chinesedrama.png" alt="logo" id="cca_logo">
+                    <h1 id="cca_title" class="cca_name"><span id="test" data-cca="chinesedrama">Chinese Drama</span></h1>
+                    <h4 class="cca_cat"><a href="../" id="cca_cat">Aesthetics</a></h4>
+                    <a href="../" title="Back to Category" id="back_cat_a">
+                        <div id="back_cat">
+                            Back to Aesthetics
+                        </div>
+                    </a>
+            </div>
+            <div class="hr-divider clear"></div>
+            <div id="topcontent">
+            	<div id="cca-details">
+                    <p>&#33258;1948&#24180;&#25104;&#31435;&#20197;&#26469;&#65292;&#21326;&#20392;&#20013;&#23398;&#20013;&#25991;&#25103;&#21095;&#23398;&#20250;----&#8220;&#21326;&#23703;&#21095;&#22346;&#8221;&#24050;&#25104;&#20026;&#26032;&#21152;&#22369;&#39318;&#23624;&#19968;&#25351;&#30340;&#26657;&#22253;&#20013;&#25991;&#25103;&#21095;&#22242;&#20307;&#12290;&#21326;&#23703;&#21095;&#22346;&#19981;&#20294;&#22312;&#22810;&#39033;&#27604;&#36187;&#20013;&#33073;&#39062;&#32780;&#20986;&#65292;&#33635;&#33719;&#20339;&#32489;&#65292;&#36824;&#26366;&#21046;&#20316;&#36807;&#22810;&#37096;&#25104;&#21151;&#30340;&#22823;&#22411;&#28436;&#20986;&#12290;&#22914;&#12298;&#38472;&#22025;&#24218;&#12299;&#65307;&#12298;&#26446;&#20809;&#21069;&#12299;&#65307;&#12298;&#29579;&#40718;&#26124;&#12299;&#65307;&#12298;&#22240;&#20026;&#26377;&#20320;&#12299;;&#12298;&#24515;&#38901;.&#26032;&#38901;&#12299;&#21450; &#12298;&#30334;&#24180;&#183;&#30636;&#38388;&#65306;&#32426;&#24565;&#36763;&#20133;&#38761;&#21629;100&#21608;&#24180;&#12299;&#37117;&#26159;&#21326;&#23703;&#21095;&#22346;&#36817;&#24180;&#26469;&#30340;&#39556;&#20154;&#20043;&#20316;&#12290;&#32780;&#12298;&#21326;&#23703;&#33402;&#38901;&#12299;&#21017;&#26159;&#28145;&#21463;&#22823;&#23478;&#21916;&#29233;&#30340;&#24120;&#24180;&#28436;&#20986;&#65292;&#30001;&#23398;&#29983;&#33258;&#32534;&#33258;&#23548;&#33258;&#28436;&#65292;&#25104;&#20026;&#21326;&#23703;&#20250;&#21592;&#19968;&#23637;&#25165;&#21326;&#30340;&#22823;&#33310;&#21488;&#12290;<!--自1948年成立以来，华侨中学中文戏剧学会----“华岗剧坊”已成为新加坡首屈一指的校园中文戏剧团体。华岗剧坊不但在多项比赛中脱颖而出，荣获佳绩，还曾制作过多部成功的大型演出。如《陈嘉庚》；《李光前》；《王鼎昌》；《因为有你》;《心韵.新韵》及 《百年·瞬间：纪念辛亥革命100周年》都是华岗剧坊近年来的骄人之作。而《华岗艺韵》则是深受大家喜爱的常年演出，由学生自编自导自演，成为华岗会员一展才华的大舞台。--></p>
+                </div>
+                <div id="featured-photo">
+                    <img src="/hs_cca/images/cca/aesthetics/featured/chinesedrama/top_photo.png" alt="Featured Photo"/>
+                </div>
+            </div>
+            
+            <div class="hr-divider clear"></div>
+            <div id="training_info" class="cca_info">
+            	<div class="split_2">
+                    <h3 id="training-time">Training Dates &amp; Times</h3>
+					<p>Fridays (2.30pm - 6.30pm)</p>
+					<p>Saturdays (8am - 1pm) [during production periods]</p>
+					<p><i>There will be additional days of rehearsals for forthcoming productions.</i></p>
+                </div>
+                <div class="split_2">
+                    <h3 id="what-we-do">What we do</h3>
+                    <p>&#21457;&#22768;&#32451;&#20064;<!--发声练习--></p>
+                    <p>&#28436;&#25216;&#35757;&#32451;<!--演技训练--></p>
+                    <p>&#20307;&#21147;&#35757;&#32451;<!--体力训练--></p>
+                </div>
+            </div>
+            
+            <div class="hr-divider clear"></div>
+            <div id="trial-info" class="cca_info">
+                <div class="split_3">
+                    <h3 id="trial-dates">Trial Dates</h3>
+                    <ol>
+                        <li><span class="date">17/01/2014</span> <span class="time">14:30</span> - <span class="time">16:30</span></li>
+                        <li><span class="date">24/01/2014</span> <span class="time">14:30</span> - <span class="time">16:30</span></li>
+                        <li><span class="date">7/02/2014</span> <span class="time">14:30</span> - <span class="time">16:30</span></li>
+                    </ol>
+                </div>
+                <div class="split_3">
+                    <h3 id="trial-venue">Venue</h3>
+                    <p>SALT Centre (Black Box)</p>
+                </div>
+                <div class="split_3">
+                    <h3 id="trial-attire">Attire</h3>
+                    <p>School Uniform</p>
+                </div>
+            </div>
+            
+            <div class="hr-divider clear"></div>
+            <div id="technical_info" class="cca_info">
+            	<div class="split_2">
+                    <h3 id="teachers-ic">Teachers I/C</h3>
+					<p>&#26472;&#25991;&#20210;&#32769;&#24072;<!--杨文仲老师--> (&nbsp;<a href="mailto:yangwz@hci.edu.sg" class="email">yangwz@hci.edu.sg</a>&nbsp;) <small>(Coach)</small></p>
+                    <p>&#29579;&#36798;&#22372;&#32769;&#24072;<!--王达坤老师--> (&nbsp;<a href="mailto:wangdk@hci.edu.sg" class="email">wangdk@hci.edu.sg</a>&nbsp;)</p>
+                    <p>&#29976;&#28304;&#32769;&#24072;<!--甘源老师--> (&nbsp;<a href="mailto:gany@hci.edu.sg" class="email">gany@hci.edu.sg</a>&nbsp;) <small>(Coach)</small></p>
+                    <p>Coach: &#21608;&#20432;&#24420;&#32769;&#24072;<!--周俐彤老师--> (&nbsp;<a href="mailto:zhoult@hci.edu.sg" class="email">zhoult@hci.edu.sg</a>&nbsp;)</p>
+                </div>
+                <div class="split_2">
+                    <h3 id="requirements">Requirements</h3>
+                    <p>&#25954;&#20110;&#34920;&#36798;<!--敢于表达--></p>
+                    <p>&#26377;&#28436;&#20986;&#30340;&#22825;&#20998;<!--有演出的天分--></p>
+                    <p>&#26377;&#28436;&#35762;&#30340;&#25216;&#33021;<!--有演讲的技能--></p>
+                </div>
+            </div>
+            <div class="hr-divider clear"></div>
+            
+		<div id="achievements" class="cca_info">
+            <h3 id="achievements">Achievements</h3>
+			<p>2007 - &#25945;&#32946;&#37096;&#38738;&#24180;&#33410;&#25103;&#21095;&#27604;&#36187;&#37329;&#29260;&#22870;<!--教育部青年节戏剧比赛金牌奖--></p>
+            <p>2007 - &#31532;&#21313;&#23626;&#26032;&#21152;&#22369;&#20840;&#22269;&#38498;&#26657;&#25103;&#21095;&#23567;&#21697;&#21019;&#20316;&#21450;&#34920;&#28436;&#27604;&#36187;&#33719;&#20013;&#23398;&#32452;&#20896;&#20891;&#65307;&#26368;&#20339;&#28436;&#21592;&#22870;<!--第十届新加坡全国院校戏剧小品创作及表演比赛获中学组冠军；最佳演员奖--></p>
+            <p>2008 - &#31532;&#21313;&#19968;&#23626;&#26032;&#21152;&#22369;&#20840;&#22269;&#38498;&#26657;&#25103;&#21095;&#23567;&#21697;&#21019;&#20316;&#21450;&#34920;&#28436;&#27604;&#36187;&#33719;&#20013;&#23398;&#32452;&#20122;&#20891;&#65307;&#26368;&#20339;&#28436;&#21592;&#22870;&#65307;&#26368;&#20339;&#21019;&#24847;&#22870;<!--第十一届新加坡全国院校戏剧小品创作及表演比赛获中学组亚军；最佳演员奖；最佳创意奖--></p>
+            <p>2008 - &#31532;&#20116;&#23626;&#20122;&#27954;&#23398;&#29983;&#25103;&#21095;&#27719;&#28436;&#21463;&#36992;&#20195;&#34920;&#26032;&#21152;&#22369;&#21442;&#19982;&#28436;&#20986;<!--第五届亚洲学生戏剧汇演受邀代表新加坡参与演出--></p>
+            <p>2011 - &#25945;&#32946;&#37096;&#38738;&#24180;&#33410;&#25103;&#21095;&#27604;&#36187;&#33635;&#35465;&#37329;&#29260;&#22870;<!--教育部青年节戏剧比赛荣誉金牌奖--></p>
+            <p>2012 - Asia-Pacific Sec School Chinese Drama Extravaganza - Participation - Special Performance</p>
+            <p>2012 - Performance of Dr Sun Yat-sen - Participation - Special Performance</p>
+        </div>
+	       
+        <div class="clear"></div>
+        </div>
+        <!--/content-->
+        <!--footer-->
+        <footer class="wrap">
+        	<div id="credits">
+                <div id="copyright">
+                Unless otherwise noted, this work is licensed under the <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International License (CC BY 4.0)</a>.
+                </div>
+                Created by Samuel Leong, Sun Yudong &amp; Ho Jie Feng for Hwa Chong Institution 2013. Maintained by EC&#179;.&nbsp;Last Edited 2014&nbsp;(&nbsp;<a href="/hs_cca/humans.txt" target="_blank" title="The humans responsible & technology colophon">humans.txt</a>&nbsp;)
+                <br/>
+                Some design elements inspired by developer.android.com
+            </div>
+			Change Background: <a onclick="changeBg(this.id);" id="changeBg_light">Light</a> | <a onclick="changeBg(this.id);" id="changeBg_feathers">Feathers</a> | <a onclick="changeBg(this.id);" id="changeBg_brushed">Brushed</a> | <a onclick="changeBg(this.id);" id="changeBg_f9f9f9">White</a>
+            <br/>
+            <a href="/hs_cca/sitemap/" target="_blank">Sitemap</a>&nbsp;|&nbsp;<a href="/hs_cca/report/">Report an Issue</a>
+        </footer>
+        <!--/footer-->
+        <!--overlays-->
+        <div id="move-to-top-wrap">
+            <div id="move-to-top"><img src="/hs_cca/images/gototop.png" alt="Move To Top" id="move-top-icon"></div>
+        </div>
+        <!--/overlays-->
+    </body>
+</html>

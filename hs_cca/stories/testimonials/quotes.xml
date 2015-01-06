@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<quotes>
+    <info total="10" last-updated="2014-01-06"/>
+    <quoteItem number="1">
+        <image>/hs_cca/images/testimonials/1.png</image>
+        <author>Lorem Ipsum</author>
+        <content>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae porta mi, a tristique enim. Mauris fermentum erat ac nulla.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae porta mi, a tristique enim. Mauris fermentum erat ac nulla.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae porta mi, a tristique enim. Mauris fermentum erat ac nulla.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae porta mi, a tristique enim. Mauris fermentum erat ac nulla.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae porta mi, a tristique enim. Mauris fermentum erat ac nulla.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae porta mi, a tristique enim. Mauris fermentum erat ac nulla.</content>
+    </quoteItem>
+    <quoteItem number="2">
+        <image>/hs_cca/images/testimonials/1.png</image>
+        <author>Lorem Ipsum</author>
+        <content>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae porta mi, a tristique enim. Mauris fermentum erat ac nulla.</content>
+    </quoteItem>
+    <quoteItem number="3">
+        <image>/hs_cca/images/testimonials/1.png</image>
+        <author>Lorem Ipsum</author>
+        <content>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae porta mi, a tristique enim. Mauris fermentum erat ac nulla.</content>
+    </quoteItem>
+    <quoteItem number="4">
+        <image>/hs_cca/images/testimonials/1.png</image>
+        <author>Lorem Ipsum</author>
+        <content>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae porta mi, a tristique enim. Mauris fermentum erat ac nulla.</content>
+    </quoteItem>
+    <quoteItem number="5">
+        <image>/hs_cca/images/testimonials/1.png</image>
+        <author>Lorem Ipsum</author>
+        <content>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae porta mi, a tristique enim. Mauris fermentum erat ac nulla.</content>
+    </quoteItem>
+    <quoteItem number="6">
+        <image>/hs_cca/images/testimonials/1.png</image>
+        <author>Lorem Ipsum</author>
+        <content>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae porta mi, a tristique enim. Mauris fermentum erat ac nulla.</content>
+    </quoteItem>
+    <quoteItem number="7">
+        <image>/hs_cca/images/testimonials/1.png</image>
+        <author>Lorem Ipsum</author>
+        <content>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae porta mi, a tristique enim. Mauris fermentum erat ac nulla.</content>
+    </quoteItem>
+    <quoteItem number="8">
+        <image>/hs_cca/images/testimonials/1.png</image>
+        <author>Lorem Ipsum</author>
+        <content>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae porta mi, a tristique enim. Mauris fermentum erat ac nulla.</content>
+    </quoteItem>
+    <quoteItem number="9">
+        <image>/hs_cca/images/testimonials/1.png</image>
+        <author>Lorem Ipsum</author>
+        <content>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae porta mi, a tristique enim. Mauris fermentum erat ac nulla.</content>
+    </quoteItem>
+    <quoteItem number="10">
+        <image>/hs_cca/images/testimonials/1.png</image>
+        <author>Lorem Ipsum</author>
+        <content>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae porta mi, a tristique enim. Mauris fermentum erat ac nulla.</content>
+    </quoteItem>
+</quotes>

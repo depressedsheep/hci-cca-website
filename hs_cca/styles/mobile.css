@@ -1,0 +1,45 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700);
+/*<global>*/
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+a {
+    color: #FF8800;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #ffaf05;
+}
+/*</global>*/
+
+/*<navigation>*/
+/*</navigation>*/
+
+/*<content>*/
+/*</content>*/
+
+/*<footer>*/
+footer {
+    font-size: 12px;
+    border-top: 1px dotted #aaa;
+    padding: 10px 0px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer p {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+/*</footer>*/
+
+/*<overlays>*/
+#move-to-top-wrap {
+    display: none;
+}
+/*</overlays>*/

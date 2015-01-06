@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="initial-scale=1, minimum-scale=1, width=device-width">
+        <title>Error 403 (Forbidden)!</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            html, code {
+                font: 14px/22px 'Open Sans', sans-serif, Arial;
+            }
+            html {
+                background-color: #F9F9F9;
+                color: #302D2D;
+                padding: 15px;
+            }
+            body {
+                margin: 7% auto 0;
+                max-width: 400px;
+                min-width: 390px;
+                min-height: 180px;
+                padding:30px 0 15px;
+            }
+            p {
+                margin: 11px 0 22px;
+                overflow: hidden;
+            }
+            ins {
+                color: #777;
+                text-decoration: none;
+            }
+            a {
+                text-decoration: none;
+                color: #302D2D;
+            }
+            a:hover {
+                color: #716b6b;
+            }
+            #logo {
+                display: inline-block;
+            }
+            
+            h1#head-title {
+                display: inline-block;
+                font-size: 48px;
+                height: 77px;
+                margin: 0px 0px 0px 10px;
+                vertical-align: middle;
+                font-weight: 300;
+            }
+            @media screen and (max-width:772px) {
+                body {
+                    background: none;
+                    margin-top: 0;
+                    max-width: none;
+                    padding-right: 0;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <a id="home" href="/hs_cca/">
+            <div id="logo"><img id="icon" alt="logo" src="/hs_cca/images/logo.png"></div>
+            <h1 id="head-title">PE and CCA</h1>
+        </a>
+        <p><b>403.</b> <ins>That’s an error.</ins></p>
+        <p>You are forbidden to view the contents.  <ins>That’s all we know.</ins></p>
+        <p>You can go back to your <span id="last"><a onclick="history.back()" style="cursor: pointer;">last page</a></span> and try again.</p>
+        <script>
+            (function ()
+            {
+                if (document.referrer != "")
+                {
+                    document.getElementById("last").innerHTML = "<a onclick='history.back()' style='cursor: pointer; border-bottom: 1px dotted'>last page</a> (" + document.referrer + ")";
+                }
+            })();
+        </script>
+    </body>
+</html>

@@ -1,0 +1,271 @@
+p {
+    text-align: justify;
+}
+
+.Trow {
+    display: table-row;
+}
+
+#cca_menu {
+    float: left;
+    padding: 0px 10px;
+    width: 140px;
+    border-right: 1px dotted #aaa;
+    margin-bottom: 10px;
+}
+
+.cca_menu_tab {
+    display: inline-block;
+    width: 140px;
+    height: 140px;
+    text-align: right;
+    transition: 0.3s ease;
+    margin: 0 auto;
+    position: relative;
+    padding: 5px 0px;
+}
+
+.cca_menu_tab_wrapper {
+    display: table-row;
+}
+
+.cca_menu_tab img {
+    width: 140px;
+    height: 140px;
+    transition: 0.3s ease;
+}
+
+.cca_menu_tab:hover img {
+    opacity: 0.8;
+}
+
+.cca_menu_tab h3, .cca_img_wrap h3 {
+    margin-bottom: 5px;
+    margin-right: 5px;
+    z-index: 100;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: inline-block;
+    font-size: 16px;
+    width: 91px;
+    font-weight: 700;
+}
+
+.cca_img_wrap h3 {
+    max-width: 80px;
+    font-weight: 400;
+    display: none;
+    cursor: pointer;
+    font-size: 15px;
+    text-shadow:
+   -1px -1px 0 #fff,  
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+     1px 1px 0 #fff;
+    /*
+	width:130px;
+	bottom:-25px;
+	right:-15px;
+	text-align:center;
+	/**/
+}
+
+#ec3 h3, #wushu h3, #robotics h3{
+    color: #F9F9F9;
+    text-shadow: none;
+}
+
+.cca_img_wrap:hover h3, .cca_img_wrap:hover h3:hover {
+}
+
+#cca_menu a {
+    color: #302D2D;
+    text-decoration: none;
+}
+
+.ccalist {
+    float: right;
+    padding: 0px 10px;
+    width: 820px;
+}
+
+.cca_img_wrap a {
+    color: #302D2D;
+}
+
+#l2, #l3, #l4 {
+    display: none;
+}
+
+.cca_img_wrap {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    margin: 32px 60px 0px 0px;
+    text-align: right;
+    position: relative;
+}
+
+.cca_img {
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.Trow .cca_img:nth-child(5n) {
+    margin-right: 30px;
+}
+
+.Trow .cca_img_wrap:first-child {
+    margin-left: 39px;
+}
+
+.cca_sublist .Trow:first-child .cca_img_wrap {
+    margin-top: 5px;
+}
+
+.cca_sublist .Trow:last-child .cca_img {
+    margin-bottom: 10px;
+}
+
+#choir img {
+    /*border: 1px solid #999999;*/
+}
+
+#internationalchess h3 {
+    max-width: 100px;
+}
+
+#cca_title h3 {
+    color: #F9F9F9;
+}
+
+/*-----CCA INFO PAGES-----*/
+#topcontent {
+    padding-top: 2px;
+}
+
+#cca-head {
+    position: relative;
+    height: 140px;
+}
+
+#back_cat_a {
+    color: #302D2D;
+}
+
+#back_cat_a:hover {
+    color: #716b6b;
+}
+
+#back_cat {
+    position: absolute;
+    top: 0; bottom: 0;
+    margin: auto 0;
+    right: 10px;
+    height: 22px;
+    border: 1px solid #9b9b9b;
+    padding: 10px;
+    background-color:#F9F9F9;
+    
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+}
+
+#back_cat:hover {
+    border-color: #302D2D;
+    background-color: #EDEDED;
+}
+
+#cca_logo {
+    float: left;
+    margin: 10px;
+    margin-right: 20px;
+    width: 120px;
+    height: 120px;
+}
+
+#cca-details {
+    padding: 10px;
+    padding-top: 2px;
+    width: 550px;
+    float: left;
+    margin-bottom: 10px;
+    height: 278px;
+    overflow-y: hidden;
+}
+
+#cca-details p:first-child {
+    margin-top: 2px;
+}
+
+#featured-photo {
+    text-align: center;
+    width: 409px;
+    border-left: 1px dotted #aaa;
+    float: right;
+    padding: 10px;
+    margin-bottom: 10px;
+    height: 278px;
+}
+
+#featured-photo img {
+    /*width: 407px;*/
+    max-height: 275px;
+}
+
+#achievements h4 {
+    text-decoration: underline;
+}
+
+.cca_info h3 {
+    font-weight: 300;
+    margin-bottom: 2px;
+    margin-top: 0px;
+}
+
+.cca_name {
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+
+.cca_cat {
+    font-weight: 500;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 10px;
+}
+
+
+.cca_name sup {
+    vertical-align: text-top;
+    font-size: 20px;
+}
+
+#cca_cat {
+    color: #9b9b9b;
+    text-decoration: none;
+}
+
+#cca_cat:hover {
+    color: #716b6b;
+}
+
+/*------Tab Splits-------*/
+#training_info .split_2 {
+    height: 230px;/*original 200*/
+}
+
+#trial-info .split_3 {
+    height: 100%;
+}
+
+#trial-info {
+    min-height: 150px;
+}
+
+#technical_info .split_2 {
+    height: 210px; /*original 160*/
+}

@@ -1,0 +1,26 @@
+ul {
+    list-style: square inside url('data:image/gif;base64,R0lGODlhBQAKAIABAAAAAP///yH5BAEAAAEALAAAAAAFAAoAAAIIjI+ZwKwPUQEAOw==');
+}
+
+#mainContent {
+    width: 480px;
+    padding: 10px;
+    float: left;
+}
+
+#mainContent h3 {
+    margin-top: 0px;   
+}
+
+#googleForm {
+    float: right;
+    padding: 10px;
+    padding-right: 0px;
+}
+
+#googleForm iframe {
+    border: none;
+    margin: 0;
+    width: 490px;
+    height: 600px;
+}

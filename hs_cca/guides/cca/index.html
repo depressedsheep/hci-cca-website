@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en" class="f9f9f9_bg" manifest="/hs_cca/cache.appcache">
+    <head>        
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="robots" />
+        <link rel="icon" href="/hs_cca/images/favicon.ico" type="image/x-icon" />
+        <link rel="author" href="/hs_cca/humans.txt" />
+        <title>CCA Website (Choosing the Right CCA)</title>
+        <meta name="description" content="Hwa Chong PE and CCA Website" />
+        <meta name="keywords" content="CCA, PE, Guides" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script src="/hs_cca/scripts/detect-mobile.js"></script>
+        
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,700,300' rel='stylesheet' type='text/css' />
+    	<!--[if lte IE 9]>
+            <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400" type='text/css'/> 
+            <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:700" type='text/css'/> 
+            <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300" type='text/css'/>
+            
+            <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic" type='text/css'/> 
+            <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300italic" type='text/css'/> 
+            <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:700italic" type='text/css'/>
+        <![endif]-->
+        
+        <link rel="stylesheet" href="/hs_cca/styles/main.css" type="text/css" />
+        <link rel="stylesheet" href="/hs_cca/styles/guides.css" type="text/css" />
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+        <!--[if lte IE 9]>
+            <script src="html5shiv/dist/html5shiv.js"></script>
+            <script src="html5shiv/dist/html5shiv-printshiv.js"></script>
+            <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js">IE7_PNG_SUFFIX=".png";</script>
+            <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <![endif]-->
+        <!--[if gt IE 9]><!-->
+            <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+        <!--<![endif]-->
+        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="/hs_cca/scripts/javascript.js"></script>
+    </head>
+    <body>
+        <!--header-->
+        <!--<div id="menu_toggle">
+	        <div id="menu_toggle_tab">Menu</div>
+        </div>-->
+        <div id="header-filler"></div>
+        <header class="disableSelect">
+            <div id="navbar">
+                <div id="menu">
+                    <div id="m1" class="navbarmenu" data-link="0">
+                        <a href="/hs_cca/"><div class="menu_tab" id="tab1">Home</div></a>
+                    </div>
+                    <div id="m2" class="navbarmenu" data-link="2">
+                        <a href="/hs_cca/cca/"><div class="menu_tab" id="tab2">The CCAs</div></a>
+                        <div id="sub2" class="sub_menu">
+                            <div id="sub_search" class="sub_menu_tab" >
+	                            <div class="corner"></div>
+                            	<input type="search" id="ccasearch" placeholder="Search CCAs" autocomplete="off" onfocus="ccasearchf(1)" onblur="ccasearchf(0)" />
+                                <div class="corner"></div>
+                            </div>                        
+                        	<a href="/hs_cca/cca/sports/" class="sub_link"><div class="sub_menu_tab first_tab">Sports</div></a>
+                        	<a href="/hs_cca/cca/ug/" class="sub_link"><div class="sub_menu_tab">Uniform Groups</div></a>
+                        	<a href="/hs_cca/cca/aesthetics/" class="sub_link"><div class="sub_menu_tab">Aesthetics</div></a>
+                        	<a href="/hs_cca/cca/clubs/" class="sub_link"><div class="sub_menu_tab">Clubs &amp; Societies</div></a>
+                        </div>
+                    </div>
+                    <div id="m3" class="navbarmenu" data-link="3">
+					    <a href="/hs_cca/guides/"><div class="menu_tab" id="tab3">Guides</div></a>
+                        <div id="sub3" class="sub_menu">
+                        	<a href="" class="sub_link"><div class="sub_menu_tab first_tab">The Right CCA</div></a>
+                        	<a href="/hs_cca/guides/tips/" class="sub_link"><div class="sub_menu_tab">Tips</div></a>
+                        	<a href="/hs_cca/guides/life/" class="sub_link"><div class="sub_menu_tab">CCA Life</div></a>
+                        </div>
+                    </div>
+                    <div id="m4" class="navbarmenu" data-link="4">
+					    <a href="/hs_cca/stories/"><div class="menu_tab" id="tab4">Stories</div></a>
+                        <div id="sub4" class="sub_menu">
+                        	<a href="/hs_cca/stories/articles/" class="sub_link"><div class="sub_menu_tab first_tab">Articles</div></a>
+                        	<a href="/hs_cca/stories/testimonials/" class="sub_link"><div class="sub_menu_tab">Testimonials</div></a>
+                        	<a href="/hs_cca/stories/feature/" class="sub_link"><div class="sub_menu_tab">Featured Atheletes</div></a>
+                        </div>
+                    </div>
+                    <div id="m5" class="navbarmenu" data-link="0">
+                        <a href="/hs_cca/faq/"><div class="menu_tab" id="tab5">FAQ &amp; Forum</div></a>
+                    </div>
+                    <div id="m6" class="navbarmenu" data-link="0">
+                        <a href="/hs_cca/about/"><div class="menu_tab" id="tab6">About/Contact</div></a>
+                    </div>
+                    <div id="search-area">
+                        <img src="/hs_cca/images/icon_searchi.png" alt="search" id="search-iconi">
+                        <img src="/hs_cca/images/icon_searcha.png" alt="search" id="search-icona" style="display: none">
+                        <div id="search">
+                            <div class="corner"></div>
+                            <input id="search-input" type="search" autocomplete="off" onfocus="searchf(1)" onblur="searchf(0)" placeholder="Search Site">
+                            <div class="corner"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--/header-->
+        <!--content-->
+        <div id="content" class="wrap">
+            <div id="content-header">
+                <noscript><p id="no-js">You have <strong>not enabled</strong> JavaScript! Many objects on this page will not work properly.</p></noscript>
+                <!--[if lt IE 9]>
+                <p id="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or use another browser to improve your experience.</p>
+                <![endif]-->
+                <a href="/hs_cca/" id="headtt">
+                    <div id="logo"><img src="/hs_cca/images/logo.png" alt="logo"></div>
+                    <h1 id="head-title">PE and CCA</h1>
+                </a>
+            </div>
+            <div id="topcontent">
+                <a href="/hs_cca/guides/" class="backlink"><div>Back to Guides</div></a>
+                <h2 id="website-title">CCA Guides</h2>
+                <p>Choice of CCA is crucial. The CCA you have chosen should hopefully be your commitment for the next 4 years in Hwa Chong (High School)</p>
+                <p>Doing well in your CCA requires commitment, but you must of course find balance between schoolwork, social/family life and rest.</p>
+                <p>This page will contain some guides to help you choose the right CCA.</p>
+            </div>
+            <div class="hr-divider"></div>
+            <div id="guides-content">
+                <div id="weighing-cca-choice">
+                    <h3>Choosing between CCAs</h3>
+                    <p>You may have a small list of which kinds of CCAs you would like to join, in particular those you are interested in.</p>
+                    <p id="confirmed-offer-def">Furthermore, you may sometimes get confirmed offers from CCAs after the trials if they would like you to join their CCA.</p>
+                    <p>If you place this CCA as your first choice, you are almost guaranteed a spot in that CCA.</p>
+                    <p></p>
+                    <p>Since you are advised to take up only one CCA and you should be committed to that CCA for your 4 years in Hwa Chong, it is wise that you pick the right CCA for yourself:</p>
+                    <ol>
+                        <li>
+                            <h3>Choose the CCA you think you will most benefit from</h3>
+                            <p>It is critical that you choose a CCA that you will learn the most from (skill-wise, character-wise or experience-wise)</p>
+                            <p>If you know you have the ability and passion (see the <a href="#weighing-interest-ability">guide below</a>), chances are you will succeed and find your CCA very fulfilling</p>
+                        </li>
+                        <li>
+                            <h3>Choose the CCA you think you are most interested in</h3>
+                            <p>If you are unsure about the skill-level in that CCA (but that CCA does not have those skills as a prerequisite), try to pick the CCA that you are most interested in.</p>
+                            <p>Chances are that if you have the passion for a CCA, you will pick up any necessary skills quickly and still be able to excel in your CCA</p>
+                            <p>Furthermore, if you have a confirmed offer, that CCA would probably have seen potential in you and your passion will most likely carry you far.</p>
+                            <p>Sometimes you may even find yourself surpassing your peers who learnt the skills before you joined the CCA!</p>
+                        </li>
+                        <li>
+                            <h3>Understand the time committment of the CCA</h3>
+                            <p>Some CCAs require more time committment than other CCAs. If you know that you are in certain special programmes (such as AEP and MSP), it is advisable not to choose CCAs that are too hectic.</p>
+                            <p>Many sport CCAs are very competitive and require you to commit much time to training. If you know you are not up for the challenge, you may not want to join that CCA.</p>
+                            <p>However, if you are really passionate and would like to join, you must be able to manage your time well so as not to neglect studies, family/social time and rest.</p>
+                        </li>
+                        <li>
+                            <h3>Don't just choose a CCA that your parents want you to join</h3>
+                            <p>Do not choose a CCA just because your parents want you to join it, especially if you have absolutely no interest in that CCA.</p>
+                            <p>Of course, do not ignore their expectations entirely, as they may have seen your potential in certain CCAs that you have missed out.</p>
+                            <p>Do not rebel against them, but instead take their expectations into consideration. After all, they want the best for you and know which CCA best suits your ability.</p>
+                            <p><a href="/hs_cca/guides/tips/#parents-expectations">More tips on meeting parent's expectations...</a></p>
+                        </li>    
+                    </ol>
+                    <h3><a href="/hs_cca/guides/tips/">More tips &amp; information...</a></h3>
+                </div>
+                <div class="hr-divider"></div>
+                <div id="weighing-interest-ability">
+                    <h3 id="interest-vs-ability">Weighing Interest -vs- Ability</h3>
+                    <p id="ability-definition">The definition of "ability" for CCAs sometimes may differ. Having an ability may not always equal having the skills for the CCA</p>
+                    <p>Having an ability for many <a href="/hs_cca/cca/sports/">Sport CCAs</a> would usually imply having the skills and physique for the CCA. </p>
+                    <p>However having an ability for a Clubs and Societies CCA may not mean requiring the exact skill, but having the ability to learn quickly.</p>
+                    <p>For example, if a boy who does not know programming joins <a href="/hs_cca/cca/clubs/ec3">EC&#179; (IT Club)</a>, but is interested and has the ability to learn quickly, he can still do well in the CCA.</p>
+                    <table id="weighingGuide">
+                        <tr>
+                            <td></td>
+                            <td>Have Interest</td>
+                            <td>No Interest</td>
+                        </tr>
+
+                        <tr>
+                            <td>Have Ability</td>
+                            <td>
+                                <h3>Will Succeed</h3>
+                                <p>One who has both ability and interest will be passionate about his CCA, and with his abilities, will succeed.</p>
+                                <p>A person with both interest and ability is most suited for his CCA as he will excel quickly yet be extremely committed.</p>
+                                <p>For instance, if one who has an interest for music and has a flair for singing joins <a href="/hs_cca/cca/aesthetics/choir/">choir</a>, he would do well in the CCA as there would not be any problems caused and he would be very committed to it.</p>
+                            </td>
+                            <td>
+                                <h3>Will succeed if try</h3>
+                                <p>One who has ability but no interest will not be passionate about his CCA, therefore he will not succeed, but if he tries, he would succeed.</p>
+                                <p>For instance, one who is talented in <a href="/hs_cca/cca/sports/tennis/">tennis</a> joins it but has no interest for it, will not allow the team to get the best results as the student is not committed to the CCA and is not showing his best. However, if he tries to be committed and puts his ability to good use, then will the team fare well.</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>No Ability</td>
+                            <td>
+                                <h3>Won't Succeed</h3>
+                                <p>One who has <a href="#ability-definition">no ability*</a> but has interest will not succeed as it would be very tough for him. Even if he is passionate about it, he does not know anything about the CCA. <br>
+                                <p>For instance, one who has a burning passion for a sports CCA like <a href="/hs_cca/cca/sports/wushu/">wushu</a> but have not learnt anything about it wouldn't do well in the CCA as it requires one to at least have some skills or be familiarised with it, or else, the person would often be neglected by the coach as he would focus on those who are more talented. Moreover, the CCA system in secondary schools are more competitive rather than enrichment-based, therefore it is even harder for the student to familiarise with the skills in the CCA at secondary level. Hence, the student would not do well in the CCA even though he has an interest for it.
+                            </td>
+                            <td>
+                                <h3>Won't succeed</h3>
+                                <p>One who has both no ability and interest will not succeed as he does not know anything about the CCA and he would not be passionate about it.</p>
+                                <p>For instance, one who joins <a href="/hs_cca/cca/clubs/robotics/">robotics</a> will not know anything about how to assemble the different parts of the robot correctly and moreover, since he has no interest, he would not be committed to the CCA and would spent the days doing nothing, which would not be worth it to the team.</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="clear"></div>
+        </div>
+        <!--/content-->
+        <!--footer-->
+        <footer class="wrap">
+        	<div id="credits">
+                <div id="copyright">
+                Unless otherwise noted, this work is licensed under the <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International License (CC BY 4.0)</a>.
+                </div>
+                Created by Samuel Leong, Sun Yudong &amp; Ho Jie Feng for Hwa Chong Institution 2013. Maintained by EC&#179;.&nbsp;Last Edited 2014&nbsp;(&nbsp;<a href="/hs_cca/humans.txt" target="_blank" title="The humans responsible & technology colophon">humans.txt</a>&nbsp;)
+                <br/>
+                Some design elements inspired by developer.android.com
+            </div>
+			Change Background: <a onclick="changeBg(this.id);" id="changeBg_light">Light</a> | <a onclick="changeBg(this.id);" id="changeBg_feathers">Feathers</a> | <a onclick="changeBg(this.id);" id="changeBg_brushed">Brushed</a> | <a onclick="changeBg(this.id);" id="changeBg_f9f9f9">White</a>
+            <br/>
+            <a href="/hs_cca/sitemap/" target="_blank">Sitemap</a>&nbsp;|&nbsp;<a href="/hs_cca/report/">Report an Issue</a>
+        </footer>
+        <!--/footer-->
+        <!--overlays-->
+        <div id="move-to-top-wrap">
+            <div id="move-to-top"><img src="/hs_cca/images/gototop.png" alt="Move To Top" id="move-top-icon"></div>
+        </div>
+        <!--/overlays-->
+    </body>
+</html>

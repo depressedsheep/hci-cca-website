@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en" class="f9f9f9_bg" manifest="/hs_cca/cache.appcache">
+    <head>        
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="robots" />
+        <link rel="icon" href="/hs_cca/images/favicon.ico" type="image/x-icon" />
+        <link rel="author" href="/hs_cca/humans.txt" />
+        <title>CCA Website (Infocomm Club)</title>
+        <meta name="description" content="Hwa Chong PE and CCA Website" />
+        <meta name="keywords" content="CCA, PE, Clubs" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script src="/hs_cca/scripts/detect-mobile.js"></script>
+        
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,700,300' rel='stylesheet' type='text/css' />
+    	<!--[if lte IE 9]>
+            <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400" type='text/css'/> 
+            <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:700" type='text/css'/> 
+            <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300" type='text/css'/>
+            
+            <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic" type='text/css'/> 
+            <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300italic" type='text/css'/> 
+            <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:700italic" type='text/css'/>
+        <![endif]-->
+        
+        <link rel="stylesheet" href="/hs_cca/styles/main.css" type="text/css" />
+		<link rel="stylesheet" href="/hs_cca/styles/cca.css" type="text/css">
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+        <!--[if lte IE 9]>
+            <script src="/hs_cca/html5shiv/dist/html5shiv.js"></script>
+            <script src="/hs_cca/html5shiv/dist/html5shiv-printshiv.js"></script>
+            <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js">IE7_PNG_SUFFIX=".png";</script>
+            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <![endif]-->
+        <!--[if gt IE 9]><!-->
+            <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+        <!--<![endif]-->
+        <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="/hs_cca/scripts/javascript.js"></script>
+        <script src="/hs_cca/scripts/cca.js"></script>
+    </head>
+    <body>
+        <!--header-->
+        <!--<div id="menu_toggle">
+	        <div id="menu_toggle_tab">Menu</div>
+        </div>-->
+        <div id="header-filler"></div>
+        <header class="disableSelect">
+            <div id="navbar">
+                <div id="menu">
+                    <div id="m1" class="navbarmenu" data-link="0">
+                        <a href="/hs_cca/"><div class="menu_tab" id="tab1">Home</div></a>
+                    </div>
+                    <div id="m2" class="navbarmenu" data-link="2">
+                        <a href="/hs_cca/cca/"><div class="menu_tab" id="tab2">The CCAs</div></a>
+                        <div id="sub2" class="sub_menu">
+                            <div id="sub_search" class="sub_menu_tab" >
+	                            <div class="corner"></div>
+                            	<input type="search" id="ccasearch" placeholder="Search CCAs" autocomplete="off" onfocus="ccasearchf(1)" onblur="ccasearchf(0)" />
+                                <div class="corner"></div>
+                            </div>                        
+                        	<a href="/hs_cca/cca/sports/" class="sub_link"><div class="sub_menu_tab first_tab">Sports</div></a>
+                        	<a href="/hs_cca/cca/ug/" class="sub_link"><div class="sub_menu_tab">Uniform Groups</div></a>
+                        	<a href="/hs_cca/cca/aesthetics/" class="sub_link"><div class="sub_menu_tab">Aesthetics</div></a>
+                        	<a href="/hs_cca/cca/clubs/" class="sub_link"><div class="sub_menu_tab">Clubs &amp; Societies</div></a>
+                        </div>
+                    </div>
+                    <div id="m3" class="navbarmenu" data-link="3">
+					    <a href="/hs_cca/guides/"><div class="menu_tab" id="tab3">Guides</div></a>
+                        <div id="sub3" class="sub_menu">
+                        	<a href="/hs_cca/guides/cca/" class="sub_link"><div class="sub_menu_tab first_tab">The Right CCA</div></a>
+                        	<a href="/hs_cca/guides/tips/" class="sub_link"><div class="sub_menu_tab">Tips</div></a>
+                        	<a href="/hs_cca/guides/life/" class="sub_link"><div class="sub_menu_tab">CCA Life</div></a>
+                        </div>
+                    </div>
+                    <div id="m4" class="navbarmenu" data-link="4">
+					    <a href="/hs_cca/stories/"><div class="menu_tab" id="tab4">Stories</div></a>
+                        <div id="sub4" class="sub_menu">
+                        	<a href="/hs_cca/stories/articles/" class="sub_link"><div class="sub_menu_tab first_tab">Articles</div></a>
+                        	<a href="/hs_cca/stories/testimonials/" class="sub_link"><div class="sub_menu_tab">Testimonials</div></a>
+                        	<a href="/hs_cca/stories/feature/" class="sub_link"><div class="sub_menu_tab">Featured Atheletes</div></a>
+                        </div>
+                    </div>
+                    <div id="m5" class="navbarmenu" data-link="0">
+                        <a href="/hs_cca/faq/"><div class="menu_tab" id="tab5">FAQ &amp; Forum</div></a>
+                    </div>
+                    <div id="m6" class="navbarmenu" data-link="0">
+                        <a href="/hs_cca/about/"><div class="menu_tab" id="tab6">About/Contact</div></a>
+                    </div>
+                    <div id="search-area">
+                        <img src="/hs_cca/images/icon_searchi.png" alt="search" id="search-iconi">
+                        <img src="/hs_cca/images/icon_searcha.png" alt="search" id="search-icona" style="display: none">
+                        <div id="search">
+                            <div class="corner"></div>
+                            <input id="search-input" type="search" autocomplete="off" onfocus="searchf(1)" onblur="searchf(0)" placeholder="Search Site">
+                            <div class="corner"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--/header-->
+        <!--content-->
+        <div id="content" class="wrap">
+            <div id="content-header">
+                <noscript><p id="no-js">You have <strong>not enabled</strong> JavaScript! Many objects on this page will not work properly.</p></noscript>
+                <!--[if lt IE 9]>
+                <p id="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or use another browser to improve your experience.</p>
+                <![endif]-->
+                <a href="/hs_cca/" id="headtt">
+                    <div id="logo"><img src="/hs_cca/images/logo.png" alt="logo"></div>
+                    <h1 id="head-title">PE and CCA</h1>
+                </a>
+            </div>
+                <div id="cca-head">
+                    <img src="/hs_cca/images/cca/clubs/ec3.png" alt="logo" id="cca_logo" style="width:150px;height:150px;margin-top: -15px;">
+                    <h1 id="cca_title" class="cca_name"><span id="test" data-cca="infocommclub">Infocomm Club</span></h1>
+                    <h3 class="cca_cat">The Hwa Chong Infocomm Club (Formerly EC<sup>3</sup>)</h3>
+                    <h4 class="cca_cat"><a href="../" id="cca_cat">Clubs &amp; Societies</a></h4>
+                    <a href="../" title="Back to Category" id="back_cat_a">
+                        <div id="back_cat">
+                            Back to Clubs &amp; Societies
+                        </div>
+                    </a>
+            </div>
+            <div class="hr-divider clear"></div>
+            <div id="topcontent">
+            	<div id="cca-details">
+                    <p>The Infocomm Club of Hwa Chong Institution is a newly-formed combination of the robotics section and the Infocomm section. Provided are the descriptions of the following CCAs.<br><br>Infocomm: We pride ourselves to be one of the very few Infocomm clubs in Singapore to employ a senior-junior teaching model without external trainers that have not only raised the standards of our members but also fostered long-lasting bonds between the seniors and juniors. Here, members are given the freedom and space to pursue their own interest in the different aspects of IT, while receiving ample competition opportunities throughout the year, all in a family-like environment. <br>Robotics: Starting off as an enrichment course and a 2nd CCA, the Hwa Chong Robotics Club has undergone a face-lifting transformation in just 7 years to become a 1st CCA. The club is now actively involved in the fields of Lego Robotics, Micromouse / Picomouse, Robot Soccer and Robot Prototyping. The Robotics Team has been consistently winning multiple awards in national competitions - winning a total of 21 awards in just 5 years. The Robotics Club has also represented Singapore in international competitions such as World Robot Olympiad and Robocup Junior International. They are the winners of the Robocup Singapore Open, Inter-school Micromouse Competition, National Junior Robotics Competition (NJRC) & the First Lego League (FLL).</p>
+                </div>
+                <div id="featured-photo">
+                    <img src="/hs_cca/images/cca/clubs/featured/ec3/top_photo.jpg" alt="Featured Photo"/>
+                </div>
+            </div>
+            
+            <div class="hr-divider clear"></div>
+            <div id="training_info" class="cca_info">
+            	<div class="split_2">
+                    <h3 id="training-time">Training Dates &amp; Times</h3>
+					<p>Wednesdays (3.30pm - 5pm)</p>
+					<p>Fridays (2.30pm - 5pm)</p>
+					<p><i>There will be additional training days during competition period.</i></p>
+                </div>
+                <div class="split_2">
+                    <h3 id="what-we-do">What we do</h3>
+                    <p>Senior-junior lessons</p>
+                    <p>Assignments &amp; Cool mini-projects</p>
+                    <p><a href="#cool-stuff">Sneek Peek into EC&#179; Projects</a></p>
+                </div>
+            </div>
+            
+            <div class="hr-divider clear"></div>
+            <div id="trial-info" class="cca_info">
+                <div class="split_3">
+                    <h3 id="trial-dates">Trial Dates</h3>
+                    <ol>
+                        <li><span class="date">24/01/2014</span> <span class="time">15:30</span> - <span class="time">17:30</span></li>
+                        <li><span class="date">29/01/2014</span> <span class="time">15:30</span> - <span class="time">17:30</span></li>
+                        <li><span class="date">05/02/2014</span> <span class="time">15:30</span> - <span class="time">17:30</span></li>
+                        <li><span class="date">07/02/2014</span> <span class="time">15:30</span> - <span class="time">17:30</span></li>
+                    </ol>
+                </div>
+                <div class="split_3">
+                    <h3 id="trial-venue">Venue</h3>
+                    <p>Tech Block (Computer Lab 3, Ground Floor)</p>
+                </div>
+                <div class="split_3">
+                    <h3 id="trial-attire">Attire</h3>
+                    <p>School Uniform</p>
+                </div>
+            </div>
+            
+            <div class="hr-divider clear"></div>
+            <div id="technical_info" class="cca_info">
+            	<div class="split_2">
+                    <h3 id="teachers-ic">Teachers I/C</h3>
+					<p>Mr Tan Choo Kee (&nbsp;<a href="mailto:tanck@hci.edu.sg" class="email">tanck@hci.edu.sg</a>&nbsp;)</p>
+                    <p>Mr Koh Kim Tian (&nbsp;<a href="mailto:kohkt@hci.edu.sg" class="email">kohkt@hci.edu.sg</a>&nbsp;)</p>
+                </div>
+                <div class="split_2">
+                    <h3 id="requirements">Requirements</h3>
+                    <p>Mainly looking out for people with strong passions for IT</p>
+                </div>
+            </div>
+            <div class="hr-divider clear"></div>
+            
+		<div id="achievements" class="cca_info">
+            <h3 id="achievements">Achievements</h3>
+                
+            <h4>National InfoComm Circuit</h4>
+            <p>Overall Champion (High School) (2010)</p>
+            <p>Overall Champions (JC) (2010)</p>
+            <p>Overall Champion (High School) (2011)</p>
+            <p>1st Runner's Up (JC) (2011)</p>     
+
+            <h4>International Olympiad in Informatics</h4>
+            <p>2009 - 3 Representatives (1 Silver, 1 Bronze)</p>
+            <p>2008 - 2 Representatives (1 Silver, 1 Bronze)</p>
+            <p>2007 - 3 Representatives (1 Silver, 1 Bronze)</p>
+            <p>2006 - 3 Representatives (1 Bronze)</p>
+            <p>2005 - 3 Representatives (1 Bronze)</p>
+                
+            <h4>National Software Competition</h4>
+            <p>2011: (Algorithm: Champions, IT Quiz: 4th)</p>
+            <p>2010: (Algorithm: Champions, IT Quiz: 2nd)</p>
+            <p>2009: (Algorithm: Champions, IT Quiz: 5th)</p>
+            <p>2008: (Algorithm: Champions, IT Quiz: 3rd)</p>
+            <p>2007: (Algorithm: Champions, IT Quiz: No event in year 2007)</p>
+            <p>2006: (Algorithm: Champions, IT Quiz: 5th)</p>
+            <p>2005: (Algorithm: 2nd, IT Quiz: Champions)</p>
+                
+            <h4>National Olympiad Informatics</h4>
+            <p>2002 - 2010: Top Secondary School Award</p>
+            <p>2011: 2 Silver, 2 Bronze</p>
+            <p>2010: 2 Gold, 2 Silver</p>
+            <p>2009: 2 Gold, 2 Silver</p>
+            <p>2008: 4 Silver, 1 Bronze</p>
+            <p>2007: 2 Sliver, 3 Bronze</p>
+            <p>2006: 2 Gold, 2 Bronze</p>
+            
+            <h4>National Infocomm Security Competition</h4>
+            <p>2013: Champions</p>
+            
+            <h4>iCode</h4>
+            <p>2010 Champions</p>
+            <p>2011 Champions</p>
+
+            <h4>Splash Awards</h4>
+            <p>2012: 1st Runner's Up</p>
+            <p>2012: 2nd Runner's Up</p>
+            <p>2013: 1st Runner's Up</p>
+            <p>2013: 2nd Runner's Up</p>
+            <p>2013: 3rd Runner's Up</p>
+
+            <h4>Singapore Games Creation Competition</h4>
+            <p>2012: Best Gameplay</p>
+            <p>2013: Gamer's Choice</p>
+            <p>2013: Commendation Award (2 teams)</p>
+        </div>
+        <div class="hr-divider"></div>
+        <div id="cool-stuff">
+            <h3>Web Design</h3>
+            <p>The very website you are now browsing is a product of EC&#179;!</p>
+            <p><a href="http://samleo.pancakeapps.com/ec3/randomsquares.html" target="_blank">Random Square Generator Full Page</a></p>
+            <p><a href="http://samleo.pancakeapps.com/ec3/rsquare.html" target="_blank">Random Square Generator Circle</a></p>
+            <h3>Games</h3>
+            <p><a href="http://tinyurl.com/ec3game2" target="_blank">Cyberdefender</a>: SGCC Best Gameplay + NISEC Champions</p>
+            <p><a href="http://tinyurl.com/ec3game1" target="_blank">You Only get One</a>: Ludum Dare (public competition) Submission</p>
+            <p><a href="http://gdev.nyp.edu.sg/sgcc/Games/SGCC2013/viewGameInfo.php?id=330" target="_blank">Shraked!</a>: SGCC Gamer's Choice</p>
+            <p><a href="http://tinyurl.com/ec3game3" target="_blank">Nostalgia</a>: SGCC Commendation Award</p>
+        </div>
+	    
+        <div class="clear"></div>
+        </div>
+        <!--/content-->
+        <!--footer-->
+        <footer class="wrap">
+        	<div id="credits">
+                <div id="copyright">
+                Unless otherwise noted, this work is licensed under the <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International License (CC BY 4.0)</a>.
+                </div>
+                Created by Samuel Leong, Sun Yudong &amp; Ho Jie Feng for Hwa Chong Institution 2013. Maintained by EC&#179;.&nbsp;Last Edited 2014&nbsp;(&nbsp;<a href="/hs_cca/humans.txt" target="_blank" title="The humans responsible & technology colophon">humans.txt</a>&nbsp;)
+                <br/>
+                Some design elements inspired by developer.android.com
+            </div>
+			Change Background: <a onclick="changeBg(this.id);" id="changeBg_light">Light</a> | <a onclick="changeBg(this.id);" id="changeBg_feathers">Feathers</a> | <a onclick="changeBg(this.id);" id="changeBg_brushed">Brushed</a> | <a onclick="changeBg(this.id);" id="changeBg_f9f9f9">White</a>
+            <br/>
+            <a href="/hs_cca/sitemap/" target="_blank">Sitemap</a>&nbsp;|&nbsp;<a href="/hs_cca/report/">Report an Issue</a>
+        </footer>
+        <!--/footer-->
+        <!--overlays-->
+        <div id="move-to-top-wrap">
+            <div id="move-to-top"><img src="/hs_cca/images/gototop.png" alt="Move To Top" id="move-top-icon"></div>
+        </div>
+        <!--/overlays-->
+    </body>
+</html>

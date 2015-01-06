@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Web resource currently unavailable</title>
+        <style>
+            /*html
+            {
+                background-color: #F9F9F9;
+            }
+            body
+            {
+                position: absolute;
+                top: 0; left: 0; bottom: 0; right: 0;
+                margin: auto;
+                height: 200px;
+                width: 500px;
+                padding-left: 10px;
+            }*/
+            
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            html, code {
+                font: 14px/22px 'Open Sans', sans-serif, Arial;
+            }
+            html {
+                background-color: #F9F9F9;
+                color: #302D2D;
+                padding: 15px;
+            }
+            img{
+                border: none;
+            }
+            body {
+                margin: 7% auto 0;
+                max-width: 400px;
+                min-width: 390px;
+                min-height: 180px;
+                padding:30px 0 15px;
+            }
+            p {
+                margin: 11px 0 22px;
+                overflow: hidden;
+            }
+            a {
+                text-decoration: none;
+                color: #302D2D;
+            }
+            a:hover {
+                color: #716b6b;
+            }
+            
+            #logo {
+                display: inline-block;
+            }
+            
+            h1#head-title {
+                display: inline-block;
+                font-size: 48px;
+                height: 77px;
+                margin: 0px 0px 0px 10px;
+                vertical-align: middle;
+                font-weight: 300;
+            }
+            
+            #home2 {
+                border-bottom: 1px dotted;
+            }
+            
+            @media screen and (max-width:772px) {
+                body {
+                    background: none;
+                    margin-top: 0;
+                    max-width: none;
+                    padding-right: 0;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <a id="home">
+            <div id="logo"><img id="icon" alt="logo" src="/hs_cca/images/logo.png"></div>
+            <h1 id="head-title">PE and CCA</h1>
+        </a>
+        <h2>Web resource currently unavailable</h2>
+        <p>The requested web resource is currently unavailable.<br/>Please try again later.</p>
+        <p><a id="home2" href="/hs_cca/">Click to go to our homepage.</a></p>
+        <!--<script>
+            (function ()
+            {
+                a = window.location.pathname.split("/").length - 1;
+                u = "";
+                for (i = a; i > 0; i--)
+                {
+                    u += "/";
+                }
+                b = u + "images/logo.png";
+                document.getElementById("icon").setAttribute("src", b);
+                u += "index.html";
+                document.getElementById("home").setAttribute("href", u);
+                document.getElementById("home2").setAttribute("href", u);
+            })();
+        </script>-->
+    </body>
+</html>
