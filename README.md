@@ -1,4 +1,4 @@
-# hci-cca-website
+hci-cca-website
 ===============
 Website deployed to the school server to provide co-curricular information to the new students.
 
