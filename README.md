@@ -1,3 +1,5 @@
-hci-cca-website
+# hci-cca-website
 ===============
-Currently in active development by Sun Yudong, Gui Ming Jiang and Samuel Leong.
+Website deployed to the school server to provide co-curricular information to the new students.
+
+Developed by Sun Yudong, Gui Ming Jiang and Samuel Leong, 2015
